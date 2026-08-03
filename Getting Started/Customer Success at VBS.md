@@ -266,8 +266,8 @@ Responsibilities:
 | Zoho CRM | Customer management and opportunity tracking |
 | Microsoft Outlook | Customer communication |
 | Microsoft Teams | Meetings and collaboration |
-| SharePoint | Documentation and project files |
-| Microsoft Excel | Reports, trackers and dashboards |
+| Microsoft One Drive | Documentation and project files |
+| Internal Tracker | Reports, trackers and dashboards |
 | QuickBooks | Invoice reference and payment tracking |
 | GitHub | Customer Success Academy and SOP documentation |
 
@@ -275,33 +275,30 @@ Responsibilities:
 
 # A Typical Day of a Customer Success Manager
 
-### Morning
+# 🌙 Working Hours
 
-- Check Outlook
-- Review calendar
-- Review CRM tasks
-- Review customer health
-- Check pending follow-ups
+The Customer Success team at VBS primarily supports customers in the United States.
 
----
+To provide timely communication and support during customer business hours, Customer Success Managers generally work the following shift:
 
-### During the Day
+**Standard Shift:**
+🕕 6:00 PM IST to 4:00 AM IST
 
-- Attend customer meetings
-- Coordinate with Delivery
-- Respond to customer emails
-- Update CRM
-- Follow up on action items
+Working hours may vary depending on:
+- Customer location
+- Business requirements
+- Team schedules
+- Public holidays
+- Special customer meetings
 
----
+During the shift, Customer Success Managers are expected to:
 
-### End of the Day
-
-- Complete CRM updates
-- Review tomorrow's meetings
-- Prepare meeting agendas
-- Send meeting minutes
-- Update trackers
+- Monitor Outlook and Teams regularly.
+- Attend scheduled customer meetings.
+- Coordinate with Delivery and Finance teams.
+- Update Zoho CRM after customer interactions.
+- Track customer activities using the Internal Tracker.
+- Complete follow-ups before the end of the shift.
 
 ---
 
@@ -411,9 +408,9 @@ A successful Customer Success Manager combines excellent communication, proactiv
 
 # Next Module
 
-➡️ Module 03 – Tools Used at VBS
+➡️ Module 03 – CSM Digital Workspace
 
-In the next module, you will learn how to effectively use Outlook, Teams, Zoho CRM, SharePoint, Excel, QuickBooks, and GitHub as part of your daily responsibilities.
+In the next module, you will learn how to effectively use Outlook, Teams, Zoho CRM, Microsoft OneDrive, Internal Tracker, QuickBooks, and GitHub as part of your daily responsibilities.
 
 ---
 
