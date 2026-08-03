@@ -1,0 +1,26 @@
+site_name: VBS Customer Success Academy
+
+site_description: Customer Success Learning Portal
+
+theme:
+  name: material
+
+nav:
+  - Home: README.md
+
+  - SOP Library:
+      - Daily Planning: SOPs/Daily Planning.md
+      - Customer Onboarding: SOPs/Customer Onboarding.md
+      - Client Engagement: SOPs/Client Engagement.md
+      - CRM Management: SOPs/CRM Management.md
+      - Customer Health: SOPs/Customer Health Management.md
+      - Invoice & Payment: SOPs/Invoice & Payment Management.md
+      - Business Reviews: SOPs/Business Reviews.md
+
+  - Email Templates:
+
+  - CRM Guides:
+
+  - Training Videos:
+
+  - Images:
