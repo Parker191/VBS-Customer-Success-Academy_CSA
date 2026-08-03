@@ -34,4 +34,32 @@ Review:
 - Customer Health
 - Outstanding Invoices
 
-✅ Once completed, continue to Step 2.
+---
+
+# 📋 Step 2 - Schedule a Client Check-in
+
+## Why?
+
+Regular meetings help build trust and keep the customer informed.
+
+## What to do?
+
+Schedule a meeting based on the customer's preference.
+
+Examples:
+
+- Weekly
+- Bi-weekly
+- Monthly
+
+Prepare an agenda before the meeting.
+
+Include:
+
+- Project Updates
+- Upcoming Deliverables
+- Risks
+- Customer Questions
+
+✅ Once completed, continue to Step 3.
+
