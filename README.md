@@ -1,4 +1,4 @@
-# 🎓 VBS Customer Success Academy
+# 🎓 VBS Customer Success Operations Academy
 
 > **Welcome to the VBS Customer Success Learning Portal**
 
