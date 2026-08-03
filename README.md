@@ -166,3 +166,16 @@ Virtual Building Studio (VBS)
 ---
 
 > **Version:** 1.0 (Work in Progress)
+
+Tomorrow's Plan
+
+We'll continue with Module 05 – KPIs & Success Metrics, and we'll make it VBS-specific by documenting:
+
+Your quarterly revenue targets.
+Upsell, cross-sell, and referral KPIs.
+Customer health metrics.
+Meeting and CRM expectations.
+Invoice follow-up responsibilities.
+Practical examples of how each KPI is measured and improved.
+
+By the time we finish Module 05, the Getting Started section will provide a complete foundation for any new CSM joining VBS. Sleep well—we'll continue building tomorrow! 🚀
