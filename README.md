@@ -8,8 +8,7 @@ This academy has been created to help every Customer Success Manager learn the V
 
 # 📚 Learning Modules
 
-## 📅 Daily Planning
-
+## 📅 [Daily Planning](SOPs/Daily%20Planning.md)
 Start every morning with the right priorities.
 
 ---
