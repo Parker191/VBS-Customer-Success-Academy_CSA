@@ -1,58 +1,55 @@
-# Daily Planning
+# 🌞 Daily Planning
 
-## Objective
+Welcome!
 
-To ensure every CSM starts the day with a clear understanding of priorities, customer commitments, and pending actions.
-
----
-
-## Step 1 – Check Outlook
-
-- Review new emails.
-- Prioritize urgent emails.
-- Respond to customer queries.
+This lesson teaches a CSM how to start the day.
 
 ---
 
-## Step 2 – Review Teams
+## Step 1
 
-- Check unread chats.
-- Review meeting invitations.
-- Check internal updates.
+Open Outlook
 
----
-
-## Step 3 – Open Zoho CRM
-
-- Review today's follow-ups.
-- Check overdue tasks.
-- Review opportunities.
+✅ Read emails
 
 ---
 
-## Step 4 – Review Customer Master Tracker
+## Step 2
 
-- Check active projects.
-- Review invoices.
-- Review customer health.
+Open Microsoft Teams
+
+✅ Read messages
+
+---
+
+## Step 3
+
+Open Zoho CRM
+
+✅ Check today's follow-ups
+
+---
+
+## Step 4
+
+Open Customer Master Tracker
+
+✅ Check active customers
 
 ---
 
 ## Checklist
 
-- [ ] Outlook checked
-- [ ] Teams checked
-- [ ] CRM updated
-- [ ] Tracker updated
+- [ ] Outlook Checked
+
+- [ ] Teams Checked
+
+- [ ] CRM Checked
+
+- [ ] Tracker Checked
 
 ---
 
-## Training Video
+## Video
 
-Coming Soon
-
----
-
-## Screenshots
-
-Coming Soon
+Coming Soon 🎥
