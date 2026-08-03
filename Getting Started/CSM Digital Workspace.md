@@ -62,7 +62,7 @@ Zoho CRM
 Customer Meetings
      │
      ▼
-One Drive
+Microsoft OneDrive
 (Project Documents)
      │
      ▼
@@ -150,50 +150,84 @@ The central system for customer information.
 
 ---
 
-# Tool 4 - One Drive
+## Tool 4 - Microsoft OneDrive
 
-## Purpose
+### Purpose
 
-Document management.
-
-### Store
-
-- SOPs
-- Customer documents
-- Project files
-- Meeting notes
-- Internal templates
-
-### Best Practices
-
-Keep documents organized.
-
-Avoid duplicate files.
-
-Always upload the latest version.
-
----
-
-# Tool 5 - Tracker
-
-## Purpose
-
-Reporting and tracking.
+OneDrive is VBS's centralized document storage platform used for storing, sharing, and collaborating on project and internal documents.
 
 ### Used For
 
-- KPI Dashboards
-- Customer Health Tracker
-- Revenue Tracker
-- Invoice Tracker
-- Weekly Reports
-- Monthly Reports
+- Project folders
+- Customer documents
+- SOPs
+- Meeting Minutes
+- Templates
+- Training material
+- Internal documentation
 
 ### Best Practices
 
-Keep formulas protected.
+✅ Keep folders organized.
 
-Review data before sharing.
+✅ Use standard naming conventions.
+
+✅ Share links instead of sending multiple file copies.
+
+✅ Ensure documents are stored in the correct project folder.
+
+✅ Keep the latest version of every document.
+
+### Common Mistakes
+
+❌ Saving files only on your local computer.
+
+❌ Creating duplicate versions.
+
+❌ Uploading documents to the wrong folder.
+
+❌ Sharing incorrect permissions.
+
+---
+
+# Tool 5 - Internal Tracker
+
+## URL
+
+https://tracker.virtualbuildingstudio.com/dashboard
+
+## Purpose
+
+The Internal Tracker is VBS's operational dashboard used by Customer Success Managers to monitor customer activities, projects, invoices, meetings, and business performance.
+
+### Used For
+
+- Customer Dashboard
+- Active Projects
+- Revenue Tracking
+- Invoice Monitoring
+- Customer Health
+- Follow-up Activities
+- Meeting Tracking
+- KPI Monitoring
+
+### Best Practices
+
+✅ Review the dashboard every morning.
+
+✅ Monitor overdue customer actions.
+
+✅ Keep customer activities updated.
+
+✅ Coordinate with Delivery and Finance when required.
+
+### Common Mistakes
+
+❌ Ignoring overdue actions.
+
+❌ Working from outdated information.
+
+❌ Not reviewing dashboard alerts.
 
 ---
 
