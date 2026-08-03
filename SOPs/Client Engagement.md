@@ -61,5 +61,53 @@ Include:
 - Risks
 - Customer Questions
 
-✅ Once completed, continue to Step 3.
+---
 
+# 📋 Step 3 - Conduct the Client Meeting
+
+## Why?
+
+This is your opportunity to understand how the customer feels and identify any issues before they become bigger problems.
+
+## What to do?
+
+Start the meeting by greeting the customer.
+
+Example:
+
+"Hi John, thank you for taking the time to meet today. I'd like to review the project progress, discuss any challenges, and understand how we can better support your team."
+
+Discuss the following:
+
+### Project Progress
+
+- What work has been completed?
+- Are we on schedule?
+- Have all deliverables been shared?
+
+### Challenges
+
+Ask:
+
+- Is there anything blocking your team?
+- Are there any concerns?
+- Is there anything we can improve?
+
+### Customer Feedback
+
+Ask questions like:
+
+- How satisfied are you with our communication?
+- Is the project meeting your expectations?
+- Do you have any suggestions for improvement?
+
+### Upcoming Work
+
+Discuss:
+
+- Next milestone
+- Upcoming deliverables
+- Required customer inputs
+- Target completion dates
+
+✅ Once completed, continue to Step 4.
