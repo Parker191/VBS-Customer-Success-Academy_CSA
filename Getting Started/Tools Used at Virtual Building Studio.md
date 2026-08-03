@@ -62,11 +62,11 @@ Zoho CRM
 Customer Meetings
      │
      ▼
-SharePoint
+One Drive
 (Project Documents)
      │
      ▼
-Excel
+Tracker
 (Reports & Trackers)
      │
      ▼
@@ -150,7 +150,7 @@ The central system for customer information.
 
 ---
 
-# Tool 4 - SharePoint
+# Tool 4 - One Drive
 
 ## Purpose
 
@@ -174,7 +174,7 @@ Always upload the latest version.
 
 ---
 
-# Tool 5 - Microsoft Excel
+# Tool 5 - Tracker
 
 ## Purpose
 
@@ -251,10 +251,10 @@ Meeting Notes
 Zoho CRM
       │
       ▼
-SharePoint
+One Drive
       │
       ▼
-Reports (Excel)
+Reports (Tracker)
       │
       ▼
 Invoice Follow-up (QuickBooks)
@@ -299,7 +299,7 @@ Before ending your day:
 - [ ] Teams Messages Cleared
 - [ ] CRM Updated
 - [ ] Meeting Notes Saved
-- [ ] Excel Tracker Updated
+- [ ] Tracker Updated
 - [ ] Invoice Status Reviewed (if applicable)
 - [ ] Tomorrow's Schedule Prepared
 
