@@ -1,30 +1,42 @@
-# 🎓 Welcome to the VBS CSM Academy
+# 🎓 VBS Customer Success Academy
 
-Hello and welcome!
-
-This academy has been created to help every Customer Success Manager learn the VBS process step by step.
+Welcome to the official learning portal for Customer Success Managers at Virtual Building Studio.
 
 ---
 
-# 📚 Learning Modules
+# 👋 Welcome
 
-| Module | Status |
-|---------|--------|
-| 📅 [Daily Planning](SOPs/Daily%20Planning.md) | ✅ |
-| 🤝 [Customer Onboarding](SOPs/Customer%20Onboarding.md) | ✅ |
-| ❤️ [Client Engagement](SOPs/Client%20Engagement.md) | 🚧 |
-| 📊 [CRM Management](SOPs/CRM%20Management.md) | 🚧 |
-| 💰 [Invoice & Payment](SOPs/Invoice%20%26%20Payment%20Management.md) | 🚧 |
-| 📈 [Business Reviews](SOPs/Business%20Reviews.md) | 🚧 |
+This academy will help every CSM learn the complete customer journey from onboarding to project completion.
 
-## 📅 [Daily Planning](SOPs/Daily%20Planning.md)
-Start every morning with the right priorities.
+Every lesson contains:
+
+✅ Step-by-step SOP
+
+📸 Screenshots
+
+🎥 Training Video
+
+📋 Checklist
+
+💡 Best Practices
+
+---
+
+# 🚀 Start Learning
+
+## 🌞 Daily Planning
+
+Start your day like a professional CSM.
+
+➡️ [Open Lesson](SOPs/Daily%20Planning.md)
 
 ---
 
 ## 🤝 Customer Onboarding
 
-Learn how to welcome a new client.
+Learn how to welcome a new customer.
+
+➡️ [Open Lesson](SOPs/Customer%20Onboarding.md)
 
 ---
 
@@ -32,17 +44,23 @@ Learn how to welcome a new client.
 
 Learn how to build strong customer relationships.
 
+➡️ [Open Lesson](SOPs/Client%20Engagement.md)
+
 ---
 
 ## 📊 CRM Management
 
-Learn how to use Zoho CRM.
+Learn how to update Zoho CRM.
+
+➡️ [Open Lesson](SOPs/CRM%20Management.md)
 
 ---
 
 ## 💰 Invoice & Payment
 
-Learn how to follow up on payments.
+Learn how to follow up professionally.
+
+➡️ [Open Lesson](SOPs/Invoice%20%26%20Payment%20Management.md)
 
 ---
 
@@ -50,24 +68,24 @@ Learn how to follow up on payments.
 
 Learn WBR, MBR and QBR.
 
----
-
-## 🎥 Training Videos
-
-Watch videos for every process.
+➡️ [Open Lesson](SOPs/Business%20Reviews.md)
 
 ---
 
-## 📧 Email Templates
+# 📧 Resources
 
-Ready-to-use customer emails.
+- Email Templates
+
+- CRM Guides
+
+- Forms
+
+- Images
+
+- Training Videos
 
 ---
 
-## 📋 Forms & Checklists
+Happy Learning!
 
-Daily checklists and templates.
-
----
-
-Happy Learning! 🚀
+🚀
