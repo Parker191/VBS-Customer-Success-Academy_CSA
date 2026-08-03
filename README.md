@@ -8,6 +8,15 @@ This academy has been created to help every Customer Success Manager learn the V
 
 # 📚 Learning Modules
 
+| Module | Status |
+|---------|--------|
+| 📅 [Daily Planning](SOPs/Daily%20Planning.md) | ✅ |
+| 🤝 [Customer Onboarding](SOPs/Customer%20Onboarding.md) | ✅ |
+| ❤️ [Client Engagement](SOPs/Client%20Engagement.md) | 🚧 |
+| 📊 [CRM Management](SOPs/CRM%20Management.md) | 🚧 |
+| 💰 [Invoice & Payment](SOPs/Invoice%20%26%20Payment%20Management.md) | 🚧 |
+| 📈 [Business Reviews](SOPs/Business%20Reviews.md) | 🚧 |
+
 ## 📅 [Daily Planning](SOPs/Daily%20Planning.md)
 Start every morning with the right priorities.
 
