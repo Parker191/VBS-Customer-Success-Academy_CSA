@@ -1,4 +1,4 @@
-# 🌎04 -  Why Customer Success Works in the US Shift
+# 🌎 Module 04 -  Why Customer Success Works in the US Shift
 
 Virtual Building Studio (VBS) primarily serves customers across the United States.
 
