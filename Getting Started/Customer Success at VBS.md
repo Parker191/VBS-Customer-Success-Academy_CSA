@@ -1,172 +1,321 @@
-# 🤝 Customer Success at Virtual Building Studio
+# 🤝 Module 02: Customer Success at Virtual Building Studio (VBS)
 
 ---
 
-# Module Information
+## Module Information
 
-**Module Number:** 02
-
-**Difficulty:** ⭐ Beginner
-
-**Estimated Time:** 20 Minutes
-
-**Department:** Customer Success
-
-**Process Owner:** Customer Success Manager
-
----
-
-# Objective
-
-Understand the purpose, responsibilities, and impact of the Customer Success Manager (CSM) role at Virtual Building Studio.
+| Field | Details |
+|-------|---------|
+| Module Number | 02 |
+| Category | Getting Started |
+| Difficulty | ⭐ Beginner |
+| Estimated Time | 20-25 Minutes |
+| Department | Customer Success |
+| Process Owner | Customer Success Manager |
+| Prerequisite | Module 01 – About VBS |
 
 ---
 
-# Why This Matters
+# 🎯 Module Objective
 
-Customer Success is more than managing projects.
+After completing this module, you will understand:
 
-A CSM builds trust, maintains communication, solves problems proactively, and identifies opportunities to grow customer relationships.
-
-A successful CSM ensures customers continue working with VBS because of the value and experience they receive.
+- What Customer Success means at VBS
+- The role and responsibilities of a Customer Success Manager
+- The customer lifecycle
+- How the CSM collaborates with Sales, Delivery, Finance, and Leadership
+- The KPIs used to measure success
+- The mindset required to build long-term customer relationships
 
 ---
 
-# The Customer Journey
+# Why Customer Success Exists
+
+At Virtual Building Studio, winning a customer is only the beginning.
+
+The real objective is to build a long-term partnership where customers continue to trust VBS with future projects.
+
+Customer Success exists to ensure that every client receives an exceptional experience from the first project discussion until the completion of every engagement.
+
+A Customer Success Manager serves as the bridge between the customer and the internal teams, ensuring clear communication, proactive support, timely follow-ups, and overall customer satisfaction.
+
+---
+
+# Customer Success Mission
+
+Our mission is to:
+
+• Deliver an outstanding customer experience
+
+• Build long-term customer relationships
+
+• Improve customer retention
+
+• Increase repeat business
+
+• Identify growth opportunities
+
+• Act as the customer's trusted advisor
+
+---
+
+# The Customer Success Journey
 
 Every customer follows a journey.
 
-Sales
-↓
-
-Project Handover
-↓
-
+```
+Lead Generated
+        │
+        ▼
+Sales Discussion
+        │
+        ▼
+Proposal & Quotation
+        │
+        ▼
+Customer Confirmation
+        │
+        ▼
+Sales Handover
+        │
+        ▼
 Customer Onboarding
-↓
-
+        │
+        ▼
 Project Delivery
-↓
-
-Regular Check-ins
-↓
-
+        │
+        ▼
+Regular Customer Check-ins
+        │
+        ▼
 Customer Health Monitoring
-↓
-
-Business Reviews (WBR/MBR/QBR)
-↓
-
+        │
+        ▼
+Business Reviews
+(WBR / MBR / QBR)
+        │
+        ▼
 Project Completion
-↓
-
-New Opportunities
-↓
-
+        │
+        ▼
+Repeat Business
+        │
+        ▼
+Referral
+        │
+        ▼
 Long-Term Partnership
+```
 
-The Customer Success Manager supports the customer throughout this journey.
+Customer Success is involved in almost every stage after the customer confirms the project.
+
+---
+
+# The Role of a Customer Success Manager
+
+A Customer Success Manager is responsible for ensuring customers achieve their desired outcomes while working with VBS.
+
+The role is proactive rather than reactive.
+
+Instead of waiting for customers to report problems, a CSM actively monitors customer health, communicates regularly, and resolves issues before they become major concerns.
 
 ---
 
 # Key Responsibilities
 
-As a Customer Success Manager, you are responsible for:
+## Customer Onboarding
 
-- Welcoming new customers
-- Coordinating with Delivery Managers
-- Scheduling Kickoff Meetings
-- Monitoring customer health
-- Conducting regular follow-up meetings
-- Maintaining CRM records
-- Coordinating invoice follow-ups
-- Supporting renewals and repeat business
-- Identifying upsell and cross-sell opportunities
-- Escalating customer risks when required
+- Introduce yourself to the customer
+- Review the sales handover
+- Schedule Kickoff Meetings
+- Explain communication channels
+- Build customer confidence
 
 ---
 
-# Working with Other Teams
+## Customer Engagement
+
+- Conduct regular meetings
+- Maintain communication
+- Share project updates
+- Understand customer feedback
+- Build strong relationships
+
+---
+
+## Customer Health
+
+Monitor:
+
+- Customer satisfaction
+- Communication frequency
+- Delivery status
+- Risks
+- Escalations
+- Engagement level
+
+Update customer health in Zoho CRM whenever required.
+
+---
+
+## CRM Management
+
+Maintain accurate records including:
+
+- Meeting notes
+- Customer contacts
+- Opportunities
+- Follow-up dates
+- Action items
+- Health status
+
+Remember:
+
+**If it is not updated in CRM, it did not happen.**
+
+---
+
+## Invoice & Payment Coordination
+
+Work with Finance to:
+
+- Track invoices
+- Follow up professionally
+- Resolve billing questions
+- Confirm payment status
+
+---
+
+## Business Reviews
+
+Conduct:
+
+- Weekly Business Reviews (WBR)
+- Monthly Business Reviews (MBR)
+- Quarterly Business Reviews (QBR)
+
+These meetings help customers understand the value delivered by VBS.
+
+---
+
+## Growth Opportunities
+
+Identify:
+
+- Upsell opportunities
+- Cross-sell opportunities
+- New project discussions
+- Dedicated Resource Model (DRM) opportunities
+- Customer referrals
+
+---
+
+# Internal Collaboration
+
+Customer Success works closely with multiple departments.
 
 ## Sales Team
 
-Receives the customer handover.
+Responsibilities:
 
-Understands project commitments.
-
-Supports future opportunities.
+- Customer handover
+- Proposal clarification
+- Commercial discussions
+- Future opportunities
 
 ---
 
 ## Delivery Team
 
-Coordinates project execution.
+Responsibilities:
 
-Shares project updates.
-
-Highlights risks and blockers.
+- Project progress
+- Resource allocation
+- Delivery timelines
+- Technical updates
+- Risks
 
 ---
 
 ## Finance Team
 
-Supports invoice generation.
+Responsibilities:
 
-Tracks payments.
-
-Resolves billing-related queries.
-
----
-
-## Leadership Team
-
-Reviews customer health.
-
-Approves escalations.
-
-Supports strategic customer accounts.
+- Invoice generation
+- Outstanding payments
+- Payment confirmations
+- Billing support
 
 ---
 
-# Tools Used
+## Leadership
 
-Customer Success Managers regularly use:
+Responsibilities:
 
-- Zoho CRM
-- Microsoft Outlook
-- Microsoft Teams
-- Microsoft Excel
-- SharePoint
-- QuickBooks (for invoice reference)
-- GitHub (Training Academy)
+- Escalation support
+- Strategic customer discussions
+- Customer retention planning
+- Revenue reviews
 
 ---
 
-# Daily Activities
+# Tools Used by a Customer Success Manager
 
-A typical day includes:
+| Tool | Purpose |
+|-------|---------|
+| Zoho CRM | Customer management and opportunity tracking |
+| Microsoft Outlook | Customer communication |
+| Microsoft Teams | Meetings and collaboration |
+| SharePoint | Documentation and project files |
+| Microsoft Excel | Reports, trackers and dashboards |
+| QuickBooks | Invoice reference and payment tracking |
+| GitHub | Customer Success Academy and SOP documentation |
 
+---
+
+# A Typical Day of a Customer Success Manager
+
+### Morning
+
+- Check Outlook
 - Review calendar
-- Check emails
-- Review CRM follow-ups
-- Attend customer meetings
-- Coordinate with internal teams
-- Update CRM
-- Review outstanding invoices
-- Plan the next day's priorities
+- Review CRM tasks
+- Review customer health
+- Check pending follow-ups
 
 ---
 
-# KPIs
+### During the Day
 
-Your success may be measured through:
+- Attend customer meetings
+- Coordinate with Delivery
+- Respond to customer emails
+- Update CRM
+- Follow up on action items
 
-- Customer Retention
-- Customer Health Score
-- Meeting Completion Rate
-- CRM Data Accuracy
-- Follow-up Completion
+---
+
+### End of the Day
+
+- Complete CRM updates
+- Review tomorrow's meetings
+- Prepare meeting agendas
+- Send meeting minutes
+- Update trackers
+
+---
+
+# Key Performance Indicators (KPIs)
+
+A Customer Success Manager contributes to:
+
+- Customer Retention Rate
 - Revenue Retention
+- Customer Health Score
+- Customer Satisfaction
+- Follow-up Completion Rate
+- Meeting Completion Rate
+- CRM Accuracy
 - Upsell & Cross-sell Revenue
 - Referral Generation
 - Invoice Collection Support
@@ -175,15 +324,19 @@ Your success may be measured through:
 
 # Best Practices
 
-✔ Respond within agreed timelines.
+✅ Communicate proactively.
 
-✔ Keep CRM updated after every interaction.
+✅ Keep CRM updated after every interaction.
 
-✔ Communicate proactively.
+✅ Follow through on every commitment.
 
-✔ Record meeting notes immediately.
+✅ Understand the customer's business.
 
-✔ Build relationships, not just transactions.
+✅ Document every meeting.
+
+✅ Escalate risks early.
+
+✅ Build relationships before selling services.
 
 ---
 
@@ -191,51 +344,81 @@ Your success may be measured through:
 
 ❌ Waiting for customers to contact you.
 
-❌ Forgetting to update CRM.
+❌ Missing follow-up dates.
 
-❌ Missing follow-up commitments.
+❌ Not documenting meetings.
 
 ❌ Ignoring customer concerns.
 
-❌ Delaying internal communication.
+❌ Delaying escalations.
+
+❌ Depending on memory instead of CRM.
 
 ---
 
 # Customer Success Mindset
 
-Think beyond today's project.
+Before ending every customer interaction, ask yourself:
 
-Ask yourself:
-
-- How can I make the customer's experience better?
-- What risks can I identify early?
-- How can I help the customer succeed?
-- What opportunities exist to expand the relationship?
+- Did I solve the customer's problem?
+- Did I build trust today?
+- Is there any unresolved risk?
+- Does the customer know the next steps?
+- Have I updated CRM?
+- Is there an opportunity to provide additional value?
 
 ---
 
 # Knowledge Check
 
-1. What is the primary goal of Customer Success?
+### Question 1
 
-2. Which departments work closely with a CSM?
-
-3. Name three KPIs used to measure Customer Success.
-
-4. Why is CRM important?
-
-5. When should customer risks be escalated?
+What is the primary goal of Customer Success?
 
 ---
 
-# Summary
+### Question 2
 
-A Customer Success Manager is responsible for ensuring customers receive value throughout their engagement with VBS.
+List four responsibilities of a Customer Success Manager.
 
-Strong communication, proactive support, accurate CRM updates, and collaboration across teams are the foundation of Customer Success.
+---
+
+### Question 3
+
+Which departments work closely with Customer Success?
+
+---
+
+### Question 4
+
+Why is CRM accuracy important?
+
+---
+
+### Question 5
+
+Name five KPIs that measure Customer Success performance.
+
+---
+
+# Module Summary
+
+Customer Success is responsible for creating long-term customer relationships that lead to retention, repeat business, referrals, and sustainable revenue growth.
+
+A successful Customer Success Manager combines excellent communication, proactive planning, strong documentation, accurate CRM management, and collaboration across multiple departments to deliver exceptional customer experiences.
 
 ---
 
 # Next Module
 
-➡️ Daily Planning
+➡️ Module 03 – Tools Used at VBS
+
+In the next module, you will learn how to effectively use Outlook, Teams, Zoho CRM, SharePoint, Excel, QuickBooks, and GitHub as part of your daily responsibilities.
+
+---
+
+**Module Version:** 1.0
+
+**Last Updated:** August 2026
+
+**Academy:** VBS Customer Success Academy
