@@ -1,6 +1,7 @@
 # 🎓 VBS Customer Success Operations Academy
 
 > **Welcome to the VBS Customer Success Learning Portal**
+
 > **Empowering Customer Success through Knowledge, Process, and Excellence.**
 
 This portal contains all the training material required for a Customer Success Manager at Virtual Building Studio.
