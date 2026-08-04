@@ -130,3 +130,144 @@ Examples include:
 - Payment Confirmation
 
 ---
+
+---
+
+# 💰 Revenue KPIs
+
+Revenue is the lifeline of every business. While the Customer Success Manager (CSM) is not directly responsible for sales, they play a vital role in retaining customers, identifying new opportunities, and supporting business growth.
+
+Strong customer relationships often lead to repeat business, referrals, and additional project opportunities.
+
+The Revenue KPIs for a CSM focus on helping customers succeed while contributing to the company's financial growth.
+
+---
+
+## 📈 Revenue Target
+
+### What is it?
+
+A Revenue Target is the amount of revenue a CSM is expected to influence or generate within a specific period.
+
+For example:
+
+- Quarterly Revenue Target: **USD 5,000**
+
+Although new projects are often initiated by the Sales team, CSMs contribute by:
+
+- Maintaining strong customer relationships.
+- Identifying upcoming project opportunities.
+- Re-engaging inactive customers.
+- Supporting contract renewals.
+
+### Why is it Important?
+
+Achieving revenue targets helps VBS:
+
+- Grow the business.
+- Increase customer lifetime value.
+- Build long-term customer partnerships.
+- Improve overall business performance.
+
+---
+
+## 🚀 Upsell
+
+### What is Upselling?
+
+Upselling means encouraging an existing customer to purchase a higher-value service or expand the scope of an existing project.
+
+### Example
+
+A customer initially requests **Scan to BIM** services.
+
+After understanding their requirements, the CSM identifies an opportunity to offer **BIM Coordination** or **Construction Documentation** as additional value-added services.
+
+### Your Role as a CSM
+
+- Understand the customer's future requirements.
+- Share relevant VBS capabilities.
+- Coordinate with the Sales or Business Development team when an opportunity is identified.
+
+---
+
+## 🔄 Cross-sell
+
+### What is Cross-selling?
+
+Cross-selling means introducing a different VBS service that complements the customer's current engagement.
+
+### Example
+
+A customer currently using:
+
+- Architectural BIM
+
+may also benefit from:
+
+- Structural BIM
+- MEP Modeling
+- Construction Documentation
+
+### Your Role as a CSM
+
+- Learn about all VBS services.
+- Identify complementary opportunities.
+- Introduce the customer to the appropriate internal team.
+
+---
+
+## 🤝 Referral Revenue
+
+### What is a Referral?
+
+A referral occurs when an existing satisfied customer recommends VBS to another company or professional.
+
+### Why Referrals Matter
+
+Referrals are valuable because they:
+
+- Build trust.
+- Reduce customer acquisition costs.
+- Generate qualified business opportunities.
+- Strengthen VBS's market reputation.
+
+### Your Role as a CSM
+
+Whenever a customer expresses satisfaction with our services:
+
+- Thank them for their partnership.
+- Ask if they know anyone who may benefit from VBS services.
+- Coordinate referral opportunities with the Sales team.
+
+---
+
+# 💡 Real-Life Example
+
+Imagine you own a small bakery.
+
+A customer visits your shop and buys a birthday cake.
+
+You ask:
+
+> "Would you also like matching cupcakes for your party?"
+
+The customer says yes.
+
+That's **Upselling**.
+
+Next, you mention that you also make customized cookies.
+
+The customer orders cookies too.
+
+That's **Cross-selling**.
+
+A week later, the customer tells a friend about your bakery.
+
+The friend places an order.
+
+That's a **Referral**.
+
+Customer Success works in a very similar way.
+
+Happy customers often become repeat customers and introduce new customers to VBS.
