@@ -135,5 +135,77 @@ Kickoff Meeting
 Ongoing Customer Success Management
 ```
 
+---
+
+# 👥 Roles & Responsibilities
+
+A successful customer handover requires collaboration between multiple teams. Each team has a specific role in ensuring a smooth transition.
+
+| Role | Responsibilities |
+|------|------------------|
+| **Business Development Executive (BDE)** | Confirms the deal, shares customer expectations, transfers all customer information, proposal, and commercial details. |
+| **Sales Manager** | Reviews and approves the handover process when required, ensuring all commitments made during the sales cycle are communicated clearly. |
+| **Customer Success Manager (CSM)** | Reviews all customer information, prepares for onboarding, introduces themselves to the customer, coordinates internally, and becomes the primary point of contact. |
+| **Delivery Manager** | Reviews the project scope, confirms resource allocation, plans project execution, and supports technical discussions during onboarding. |
+| **Finance Team** | Assists with customer billing information, invoice generation, and payment-related queries when required. |
+
+---
+
+## 🤝 Collaboration Between Teams
+
+A successful customer experience depends on strong collaboration.
+
+Each team should communicate openly and ensure that no important customer information is missed during the handover process.
+
+Remember:
+
+**The customer should experience one VBS team—not separate departments.**
+
+---
+
+> 💡 **Manager's Tip**
+>
+> Never assume information has already been shared. If you're unsure about a project requirement, commercial commitment, or customer expectation, ask the BDE or Sales Manager before contacting the customer.
+>
+> ---
+
+# ✅ Customer Handover Checklist
+
+Before contacting the customer, complete the following checklist.
+
+| Task | Status |
+|------|:------:|
+| Customer Name Verified | ☐ |
+| Company Name Verified | ☐ |
+| Primary Contact Details Verified | ☐ |
+| Proposal Reviewed | ☐ |
+| Commercial Agreement Reviewed | ☐ |
+| Project Scope Understood | ☐ |
+| Expected Start Date Confirmed | ☐ |
+| Delivery Manager Assigned | ☐ |
+| Zoho CRM Reviewed | ☐ |
+| Internal Tracker Updated | ☐ |
+| Customer Folder Available in OneDrive | ☐ |
+| Internal Handover Meeting Attended | ☐ |
+| Questions Clarified with Sales Team | ☐ |
+| Customer Introduction Email Prepared | ☐ |
+| Kickoff Meeting Planned | ☐ |
+
+---
+
+## 🎯 Goal
+
+The objective of this checklist is to ensure that every Customer Success Manager starts with complete and accurate information.
+
+Completing this checklist reduces errors, improves customer confidence, and creates a smooth onboarding experience.
+
+---
+
+> 💡 **CSM Tip**
+>
+> Think of this checklist as your pre-flight inspection. Just as a pilot checks every system before takeoff, a CSM should verify every detail before speaking with a new customer.
+>
+> 
+
 Every step in this workflow is important because it ensures that the customer receives a consistent and professional experience.
 
