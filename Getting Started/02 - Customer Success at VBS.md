@@ -1,3 +1,5 @@
+# 🎓 VBS Customer Success Academy
+
 # 🤝 Module 02: Customer Success at Virtual Building Studio (VBS)
 
 ---
