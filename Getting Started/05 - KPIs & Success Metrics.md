@@ -271,3 +271,175 @@ That's a **Referral**.
 Customer Success works in a very similar way.
 
 Happy customers often become repeat customers and introduce new customers to VBS.
+
+---
+
+# 😊 Customer Success KPIs
+
+Customer Success is about building long-term relationships that help customers achieve their goals while creating lasting value for VBS.
+
+Unlike traditional sales roles, a Customer Success Manager focuses on customer engagement, satisfaction, retention, and proactive support.
+
+The Customer Success KPIs measure how effectively a CSM manages customer relationships throughout the customer lifecycle.
+
+---
+
+## 💚 Customer Health Score
+
+### What is Customer Health?
+
+Customer Health is an indicator of how engaged, satisfied, and successful a customer is with VBS.
+
+A healthy customer is more likely to:
+
+- Continue working with VBS.
+- Give repeat business.
+- Recommend VBS to others.
+- Provide positive feedback.
+
+### How is Customer Health Measured?
+
+Customer Health may be evaluated using factors such as:
+
+- Frequency of communication.
+- Active projects.
+- Customer feedback.
+- Meeting participation.
+- Payment status.
+- Overall customer sentiment.
+
+### Your Role as a CSM
+
+You should:
+
+- Maintain regular communication.
+- Understand customer challenges.
+- Address concerns proactively.
+- Escalate risks before they become major issues.
+
+---
+
+## 🤝 Customer Retention
+
+### What is Customer Retention?
+
+Customer Retention measures how successfully VBS continues doing business with existing customers over time.
+
+Retaining an existing customer is often more valuable than acquiring a new one.
+
+### Why is it Important?
+
+High customer retention:
+
+- Increases recurring revenue.
+- Builds trust.
+- Reduces customer acquisition costs.
+- Strengthens long-term partnerships.
+
+### Your Role as a CSM
+
+You contribute to customer retention by:
+
+- Building strong relationships.
+- Following up consistently.
+- Understanding future project needs.
+- Delivering an excellent customer experience.
+
+---
+
+## 😊 Customer Satisfaction
+
+### What is Customer Satisfaction?
+
+Customer Satisfaction measures how happy customers are with the service they receive from VBS.
+
+Satisfied customers are more likely to:
+
+- Continue working with VBS.
+- Recommend VBS to others.
+- Share positive feedback.
+
+### How Can You Improve Customer Satisfaction?
+
+- Respond promptly to customer requests.
+- Set clear expectations.
+- Keep customers informed.
+- Resolve issues professionally.
+- Follow up after project milestones.
+
+---
+
+## 📅 Customer Meetings
+
+### Why are Customer Meetings Important?
+
+Regular meetings help build trust and keep projects moving smoothly.
+
+Meetings also help identify:
+
+- New opportunities.
+- Customer concerns.
+- Upcoming projects.
+- Delivery challenges.
+
+### Best Practices
+
+- Prepare an agenda before every meeting.
+- Arrive on time.
+- Listen actively.
+- Document action items.
+- Share meeting notes with the customer.
+
+---
+
+## 📞 Customer Communication
+
+Consistent communication is one of the most important responsibilities of a Customer Success Manager.
+
+Customers should never feel uncertain about the status of their projects.
+
+Communication includes:
+
+- Emails
+- Teams Meetings
+- Phone Calls
+- Follow-up Messages
+- Project Updates
+
+### Best Practices
+
+- Respond within agreed timelines.
+- Keep communication professional.
+- Be proactive rather than reactive.
+- Confirm customer understanding.
+- Follow up on every commitment.
+
+---
+
+# 💡 VBS Example
+
+A customer has not shared a new project for the last two months.
+
+Instead of waiting, the CSM:
+
+- Schedules a check-in meeting.
+- Understands upcoming business plans.
+- Shares relevant VBS capabilities.
+- Identifies a potential BIM Coordination opportunity.
+- Keeps the relationship active.
+
+This proactive approach improves customer health, strengthens retention, and creates opportunities for future business.
+
+---
+
+> 💡 **CSM Tip**
+>
+> Great Customer Success Managers don't wait for customers to reach out. They stay connected, understand customer goals, anticipate future needs, and create value through proactive engagement.
+>
+> ### ✅ How Can I Improve Customer Health?
+
+- [ ] Schedule regular customer check-ins.
+- [ ] Update the CRM after every interaction.
+- [ ] Follow up on open action items.
+- [ ] Monitor inactive customers.
+- [ ] Escalate risks early.
