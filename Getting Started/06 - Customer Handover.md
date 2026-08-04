@@ -4,6 +4,18 @@
 
 ---
 
+| Module Information | Details |
+|--------------------|---------|
+| Module | 06 – Customer Handover |
+| Duration | 20–30 Minutes |
+| Difficulty | Beginner |
+| Prerequisites | Modules 01–05 |
+| Target Audience | Customer Success Managers |
+| Version | 1.0 |
+| Last Updated | August 2026 |
+
+---
+
 # 👋 Welcome
 
 Welcome to **Module 06 – Customer Handover**.
