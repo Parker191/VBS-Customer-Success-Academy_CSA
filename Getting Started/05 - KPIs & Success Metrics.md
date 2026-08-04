@@ -443,3 +443,385 @@ This proactive approach improves customer health, strengthens retention, and cre
 - [ ] Follow up on open action items.
 - [ ] Monitor inactive customers.
 - [ ] Escalate risks early.
+
+---
+
+# ⚙️ Operations KPIs
+
+Operational excellence ensures that every customer interaction is properly documented, tracked, and followed through. These KPIs measure how consistently Customer Success Managers follow internal processes and maintain accurate records.
+
+Strong operational discipline improves collaboration between Customer Success, Sales, Delivery, Finance, and Leadership.
+
+---
+
+## 🖥️ CRM Accuracy
+
+### What is CRM Accuracy?
+
+The Customer Relationship Management (CRM) system is the single source of truth for customer information.
+
+Every interaction with a customer should be accurately recorded in Zoho CRM.
+
+### Why is it Important?
+
+An updated CRM helps:
+
+- Provide complete customer visibility.
+- Improve internal collaboration.
+- Reduce communication gaps.
+- Support reporting and forecasting.
+- Ensure continuity if account ownership changes.
+
+### Best Practices
+
+- Update customer records after every interaction.
+- Record meeting notes.
+- Update next follow-up dates.
+- Track opportunities.
+- Maintain accurate contact information.
+
+---
+
+## 📋 Internal Tracker Updates
+
+### What is the Internal Tracker?
+
+The VBS Internal Tracker is used to monitor customer activities, project status, invoices, and operational reporting.
+
+Keeping the tracker updated ensures that all stakeholders have access to the latest customer information.
+
+### Your Responsibilities
+
+- Update customer status.
+- Record project progress.
+- Track outstanding actions.
+- Monitor follow-up activities.
+- Maintain accurate reporting.
+
+---
+
+## 📧 Follow-up Completion
+
+### Why Follow-ups Matter
+
+Timely follow-ups demonstrate professionalism and build customer confidence.
+
+Every customer commitment should have a corresponding follow-up.
+
+Examples include:
+
+- Sending meeting summaries.
+- Checking project progress.
+- Following up on pending documents.
+- Confirming action items.
+- Following up on quotations and proposals.
+
+### Best Practices
+
+- Never miss a committed follow-up.
+- Set reminders using Outlook.
+- Update CRM after completing follow-ups.
+- Inform customers if timelines change.
+
+---
+
+## 📝 Meeting Documentation
+
+Every customer meeting should result in clear documentation.
+
+Meeting documentation should include:
+
+- Date and time.
+- Participants.
+- Discussion summary.
+- Decisions made.
+- Action items.
+- Owners.
+- Target completion dates.
+
+Meeting notes should be saved in the appropriate OneDrive folder and relevant updates should be recorded in the CRM.
+
+---
+
+## 📂 Documentation Standards
+
+Customer documentation should always be:
+
+- Complete
+- Accurate
+- Up to date
+- Easy to understand
+- Accessible to the internal team
+
+Following documentation standards helps maintain consistency across all customer accounts.
+
+---
+
+# 💡 VBS Example
+
+After completing a customer meeting, a CSM should:
+
+1. Send the meeting minutes to the customer.
+2. Update Zoho CRM with meeting notes.
+3. Update the Internal Tracker with any project changes.
+4. Save the meeting notes in the customer's OneDrive folder.
+5. Create reminders for all pending follow-ups.
+
+This ensures that every stakeholder has access to the latest information and no action item is missed.
+
+---
+
+### ✅ How Can I Improve My Operational KPIs?
+
+- [ ] Update Zoho CRM after every customer interaction.
+- [ ] Keep the Internal Tracker current.
+- [ ] Save documents in the correct OneDrive folders.
+- [ ] Send meeting notes within 24 hours.
+- [ ] Complete follow-ups on time.
+- [ ] Review pending tasks at the beginning and end of every shift.
+
+> 💡 **CSM Tip**
+>
+> Great Customer Success Managers don't rely on memory. They rely on accurate documentation, timely updates, and disciplined follow-through.
+>
+> ---
+
+# 💳 Finance Support KPIs
+
+Customer Success Managers play an important role in supporting the finance team by ensuring customers receive invoices on time, following up on outstanding payments, and maintaining clear communication throughout the payment cycle.
+
+Although CSMs are not responsible for processing payments, they act as a bridge between the customer and the finance team.
+
+---
+
+## 🧾 Invoice Management
+
+### What is Invoice Management?
+
+Invoice Management involves ensuring that invoices are:
+
+- Generated correctly.
+- Sent to the appropriate customer contact.
+- Delivered on time.
+- Acknowledged by the customer.
+
+### Why is it Important?
+
+Timely invoicing helps:
+
+- Maintain healthy cash flow.
+- Reduce payment delays.
+- Improve customer confidence.
+- Prevent billing disputes.
+
+### Your Role as a CSM
+
+- Verify customer billing details.
+- Coordinate with the Finance team for invoice generation.
+- Confirm that the customer has received the invoice.
+- Assist in resolving invoice-related queries.
+
+---
+
+## ⏳ Outstanding Payment Follow-up
+
+### What is an Outstanding Payment?
+
+An outstanding payment is an invoice that has not yet been paid by the customer.
+
+Following up professionally helps maintain healthy customer relationships while supporting business operations.
+
+### Best Practices
+
+- Send polite payment reminders.
+- Confirm that the customer has received the invoice.
+- Understand if there are any payment concerns.
+- Coordinate with the Finance team for updates.
+- Keep the customer informed professionally.
+
+---
+
+## 🤝 Coordination with Finance
+
+Customer Success Managers regularly collaborate with the Finance team to:
+
+- Track invoice status.
+- Resolve billing questions.
+- Confirm payment receipts.
+- Update customers regarding invoice-related information.
+
+Strong collaboration between Customer Success and Finance ensures a smooth customer experience.
+
+---
+
+## 💡 VBS Example
+
+A customer informs you that they have not received an invoice.
+
+As a Customer Success Manager, you should:
+
+1. Verify the invoice details.
+2. Coordinate with the Finance team.
+3. Ensure the invoice is sent to the correct email address.
+4. Confirm receipt with the customer.
+5. Follow up until the issue is resolved.
+
+---
+
+### ✅ How Can I Improve My Finance Support KPIs?
+
+- [ ] Verify billing contact information.
+- [ ] Follow up politely on outstanding invoices.
+- [ ] Coordinate closely with the Finance team.
+- [ ] Keep customers informed.
+- [ ] Record invoice-related updates in the CRM.
+
+> 💡 **CSM Tip**
+>
+> Payment conversations should always be professional, respectful, and solution-focused. The goal is to support the customer while ensuring VBS maintains a healthy payment cycle.
+>
+> ---
+
+# 📊 Sample CSM KPI Dashboard
+
+The following dashboard provides an example of how Customer Success performance can be measured.
+
+| KPI Category | KPI | Target | Status |
+|--------------|-----|--------|--------|
+| 💰 Revenue | Quarterly Revenue Target | USD 5,000 | 🟢 |
+| 💰 Revenue | Upsell Opportunities | 3% | 🟢 |
+| 💰 Revenue | Referral Revenue | 10% | 🟡 |
+| 😊 Customer Success | Customer Health | 85%+ | 🟢 |
+| 😊 Customer Success | Customer Meetings | Weekly | 🟢 |
+| ⚙️ Operations | CRM Updates | 100% | 🟢 |
+| ⚙️ Operations | Internal Tracker Updates | Daily | 🟢 |
+| 💳 Finance | Invoice Follow-ups | 100% | 🟢 |
+
+> **Note:** KPI targets may change based on business goals and management objectives.
+>
+> ---
+
+# ⭐ Best Practices
+
+Successful Customer Success Managers:
+
+- Build trusted customer relationships.
+- Keep CRM records accurate and up to date.
+- Complete follow-ups on time.
+- Stay proactive rather than reactive.
+- Communicate clearly with customers.
+- Collaborate effectively with internal teams.
+- Look for opportunities to grow customer accounts.
+- Continuously improve their product and industry knowledge.
+
+- ---
+
+# ⚠️ Common Mistakes to Avoid
+
+Avoid these common mistakes:
+
+- Waiting for customers to contact you.
+- Missing follow-up commitments.
+- Keeping CRM records incomplete.
+- Forgetting to update the Internal Tracker.
+- Delaying invoice follow-ups.
+- Making promises without confirming with internal teams.
+- Ignoring early signs of customer dissatisfaction.
+
+- ---
+
+# ✅ Module Checklist
+
+Before moving to the next module, make sure you understand:
+
+- [ ] What a KPI is.
+- [ ] Why KPIs are important.
+- [ ] Revenue KPIs.
+- [ ] Customer Success KPIs.
+- [ ] Operations KPIs.
+- [ ] Finance Support KPIs.
+- [ ] Your role in achieving business goals.
+
+- [ ] ---
+
+# 📝 Knowledge Check
+
+Test your understanding of this module.
+
+### Question 1
+
+What does KPI stand for?
+
+- [ ] Key Process Information
+- [x] Key Performance Indicator
+- [ ] Key Project Insight
+
+---
+
+### Question 2
+
+Which team primarily supports invoice generation?
+
+- [ ] Sales
+- [x] Finance
+- [ ] Delivery
+
+---
+
+### Question 3
+
+Why is Customer Health important?
+
+- [ ] It helps identify customer satisfaction and engagement.
+- [ ] It supports customer retention.
+- [ ] It helps identify potential business opportunities.
+- [x] All of the above.
+
+---
+
+### Question 4
+
+Which tool should be updated after customer interactions?
+
+- [ ] OneDrive
+- [x] Zoho CRM
+- [ ] Outlook
+
+---
+
+### Question 5
+
+What is the primary purpose of follow-ups?
+
+- [ ] To build trust.
+- [ ] To keep customers informed.
+- [ ] To ensure commitments are completed.
+- [x] All of the above.
+
+
+# 📚 Module Summary
+
+Congratulations!
+
+You have completed **Module 05 – KPIs & Success Metrics**.
+
+In this module, you learned:
+
+- What KPIs are.
+- Why KPIs are important.
+- How Customer Success contributes to business growth.
+- Revenue KPIs.
+- Customer Success KPIs.
+- Operations KPIs.
+- Finance Support KPIs.
+- Best practices for improving performance.
+
+By understanding these KPIs, you can better align your daily work with the goals of Virtual Building Studio and deliver greater value to both customers and the business.
+
+---
+
+# ➡️ Next Module
+
+**📥 Module 06 – Customer Handover**
+
+In the next module, you'll learn how customers are transitioned from the Sales team to the Customer Success team and how to ensure a smooth, successful handover.
