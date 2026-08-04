@@ -1,12 +1,18 @@
 # 🎓 VBS Customer Success Academy (CSA)
 
-> A complete onboarding and learning academy for Customer Success Managers at **Virtual Building Studio (VBS)**.
+> **A complete Customer Success training academy for Virtual Building Studio (VBS).**
+
+Developed to standardize Customer Success processes, onboarding, CRM management, customer health, business reviews, operational excellence, and AI-assisted workflows.
+
+---
 
 ![Version](https://img.shields.io/badge/Version-2.0-blue)
-![Modules](https://img.shields.io/badge/Modules-10-success)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
-![License](https://img.shields.io/badge/License-Internal-lightgrey)
+![Modules](https://img.shields.io/badge/Modules-11%2F20-success)
+![Progress](https://img.shields.io/badge/Progress-55%25-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![License](https://img.shields.io/badge/License-MIT-orange)
 
+---
 ---
 
 # 📖 About This Project
