@@ -1,207 +1,314 @@
-# 🎓 VBS Customer Success Academy
+# 🎓 VBS Customer Success Academy (CSA)
 
-> **A Complete Customer Success Operations & Training Guide for Virtual Building Studio (VBS)**
+> A complete onboarding and learning academy for Customer Success Managers at **Virtual Building Studio (VBS)**.
 
----
-
-# 👋 Welcome
-
-Welcome to the **VBS Customer Success Academy**.
-
-This repository has been created to help **Customer Success Managers (CSMs)** understand the complete customer lifecycle at Virtual Building Studio (VBS).
-
-Whether you are a new team member or an experienced CSM, this academy serves as a single place to learn our processes, tools, best practices, and customer engagement standards.
-
-Our goal is to create a consistent customer experience while enabling every CSM to confidently manage customer relationships from onboarding to long-term success.
+![Version](https://img.shields.io/badge/Version-2.0-blue)
+![Modules](https://img.shields.io/badge/Modules-10-success)
+![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+![License](https://img.shields.io/badge/License-Internal-lightgrey)
 
 ---
 
-# 🎯 Academy Objectives
+# 📖 About This Project
 
-This academy will help you learn:
+The **VBS Customer Success Academy (CSA)** is a structured learning program designed to onboard, train, and develop Customer Success Managers at Virtual Building Studio (VBS).
 
-- Customer Success at VBS
-- Customer Lifecycle Management
-- Customer Onboarding
-- Customer Health Management
-- CRM Management
-- Invoice & Payment Follow-up
-- Business Reviews
-- Customer Communication
-- Growth & Expansion
-- Reporting & Documentation
-- AI for Customer Success
+This academy combines learning materials, practical examples, SOPs, templates, and real-world scenarios into one centralized knowledge repository.
+
+The objective is to ensure every Customer Success Manager follows consistent processes, delivers exceptional customer experiences, and contributes to customer retention and business growth.
 
 ---
 
-# 🛠️ Tools Used at VBS
+# 🎯 Objectives
 
-Customer Success Managers work with the following tools:
+The academy aims to help Customer Success Managers:
 
-| Tool | Purpose |
-|------|---------|
-| Zoho CRM | Customer Relationship Management |
-| Internal Tracker | Project & Customer Tracking |
-| Microsoft Teams | Internal & Customer Meetings |
-| Outlook | Email & Calendar |
-| OneDrive | Document Storage & Sharing |
-| ChatGPT / AI | Productivity & Content Creation |
-
----
-
-# 📚 Learning Path
-
-## 🟢 Phase 1 – Getting Started
-
-- ✅ Module 01 – About Virtual Building Studio
-- ✅ Module 02 – Customer Success at VBS
-- ✅ Module 03 – CSM Digital Workspace
-- ✅ Module 04 – Working in the US Shift
-- ✅ Module 05 – KPIs & Success Metrics
-- 🔄 Module 06 – Customer Handover
+* Understand VBS, its services, and customer value proposition.
+* Learn Customer Success best practices.
+* Build strong customer relationships.
+* Manage accounts using standardized processes.
+* Maintain accurate CRM records.
+* Improve collaboration across Sales, Delivery, and Finance.
+* Identify customer risks and growth opportunities.
+* Leverage AI to improve productivity.
 
 ---
 
-## 🔵 Phase 2 – Customer Lifecycle
+# 📚 Academy Structure
 
-- ⬜ Module 07 – Customer Onboarding
-- ⬜ Module 08 – Kickoff Meeting
-- ⬜ Module 09 – Customer Engagement
-- ⬜ Module 10 – Customer Health Management
-- ⬜ Module 11 – Invoice & Payment Management
-- ⬜ Module 12 – Business Reviews (WBR / MBR / QBR)
+```
+VBS-Customer-Success-Academy_CSA
 
----
-
-## 🟣 Phase 3 – Customer Growth
-
-- ⬜ Module 13 – Project Coordination
-- ⬜ Module 14 – Growth & Expansion
-- ⬜ Module 15 – Customer Feedback
-- ⬜ Module 16 – Reporting & Documentation
-- ⬜ Module 17 – AI for Customer Success
-- ⬜ Module 18 – Best Practices
-- ⬜ Module 19 – Advanced Customer Success
-- ⬜ Module 20 – Final Assessment & Certification
-
----
-
-# 📂 Repository Structure
-
-```text
-📘 VBS Customer Success Academy
+├── Getting Started
+│   ├── 01 - About VBS
+│   ├── 02 - CSM Role & Responsibilities
+│   ├── 03 - Customer Lifecycle Management
+│   ├── 04 - Customer Onboarding
+│   ├── 05 - Customer Communication
+│   ├── 06 - Customer Meetings
+│   ├── 07 - Customer Engagement
+│   ├── 08 - Customer Success Processes
+│   ├── 09 - Customer Engagement
+│   └── 10 - CRM Management
 │
-├── 📁 Getting Started
-├── 📁 CRM Guides
-├── 📁 SOPs
-├── 📁 Customer Playbooks
-├── 📁 Email Templates
-├── 📁 Meeting Templates
-├── 📁 Forms
-├── 📁 Images
-├── 📁 Training Videos
+├── SOP Library
+│
+├── Templates
+│
+├── Resources
+│
 └── README.md
 ```
 
----
-
-# 🎯 Customer Success Journey
-
-```text
-Lead Generated
-      │
-      ▼
-Sales Qualification
-      │
-      ▼
-Proposal & Commercial Discussion
-      │
-      ▼
-Customer Confirmation
-      │
-      ▼
-Customer Handover
-      │
-      ▼
-Customer Onboarding
-      │
-      ▼
-Kickoff Meeting
-      │
-      ▼
-Project Delivery
-      │
-      ▼
-Customer Health Management
-      │
-      ▼
-Business Reviews
-      │
-      ▼
-Growth & Expansion
-      │
-      ▼
-Long-term Partnership
-```
+> **Note:** The academy is continuously expanding with new modules, SOPs, templates, and operational guides.
 
 ---
 
-# 📖 Documentation Standards
+# 🎓 Completed Modules
 
-Every module in this academy follows a consistent structure:
+## Module 01 — About Virtual Building Studio (VBS)
 
-- Welcome
-- Learning Objectives
-- Business Context
-- Step-by-Step Process
-- Real VBS Example
-- Best Practices
-- Common Mistakes
-- Manager Tips
-- Checklist
-- Knowledge Check
-- Module Summary
+Learn about:
+
+* Company overview
+* Mission and vision
+* Core services
+* Industries served
+* Value proposition
+* Why customers choose VBS
 
 ---
 
-# 🤖 AI at VBS
+## Module 02 — Customer Success Manager Role & Responsibilities
 
-Artificial Intelligence helps Customer Success Managers:
+Topics include:
 
-- Draft professional emails
-- Prepare meeting agendas
-- Create Meeting Minutes (MoM)
-- Summarize customer discussions
-- Identify customer risks
-- Generate reports
-- Create training material
+* Customer Success fundamentals
+* CSM responsibilities
+* Daily workflow
+* Cross-functional collaboration
+* Customer ownership
 
 ---
 
-# 🏆 Academy Goal
+## Module 03 — Customer Lifecycle Management
 
-By completing all modules, a Customer Success Manager will be able to:
+Learn how customers move through:
 
-- Manage customers independently.
-- Build long-term customer relationships.
-- Maintain accurate CRM records.
-- Conduct customer meetings confidently.
-- Coordinate with internal teams.
-- Support business growth through Customer Success.
-
----
-
-# 🚀 Version
-
-**Academy Version:** 1.0
-
-**Company:** Virtual Building Studio (VBS)
-
-**Maintained By:** Sharad Puri
-
-**Last Updated:** August 2026
+* Onboarding
+* Adoption
+* Engagement
+* Growth
+* Retention
+* Advocacy
 
 ---
 
-## ⭐ "Great Customer Success is not about solving problems after they happen.
-## It is about building relationships that prevent problems before they occur."
+## Module 04 — Customer Onboarding
+
+Topics include:
+
+* Customer onboarding process
+* Kickoff preparation
+* Success planning
+* Setting expectations
+* First impressions
+
+---
+
+## Module 05 — Customer Communication
+
+Topics include:
+
+* Professional communication
+* Customer emails
+* Relationship building
+* Communication best practices
+* Escalation etiquette
+
+---
+
+## Module 06 — Customer Meetings
+
+Learn how to conduct:
+
+* Kickoff meetings
+* Weekly meetings
+* Monthly Business Reviews
+* Quarterly Business Reviews
+* Internal meetings
+
+---
+
+## Module 07 — Customer Engagement
+
+Topics include:
+
+* Engagement strategies
+* Customer success planning
+* Building long-term relationships
+* Proactive communication
+
+---
+
+## Module 08 — Customer Success Processes
+
+Topics include:
+
+* Operational workflows
+* Internal coordination
+* Process ownership
+* Customer success operations
+
+---
+
+## Module 09 — Customer Engagement
+
+Topics include:
+
+* Customer engagement planning
+* Relationship development
+* Customer communication cadence
+* Best practices
+
+---
+
+## Module 10 — CRM Management
+
+Comprehensive CRM training covering:
+
+* Zoho CRM fundamentals
+* CRM vs Internal Tracker vs OneDrive
+* Customer record management
+* Activities management
+* Follow-up management
+* Customer timeline
+* CRM data standards
+* CRM best practices
+* Common CRM mistakes
+* Real VBS CRM scenario
+* AI for CRM management
+* CRM quick reference guide
+* Knowledge check
+* Challenge exercise
+
+---
+
+# 🚧 Upcoming Modules
+
+The academy roadmap includes:
+
+* Module 11 — Customer Health Score Management
+* Module 12 — Weekly, Monthly & Quarterly Business Reviews
+* Module 13 — Invoice & Payment Management
+* Module 14 — Customer Escalation Management
+* Module 15 — Customer Retention Strategies
+* Module 16 — Upselling & Cross-selling
+* Module 17 — Customer Advocacy & Referrals
+* Module 18 — AI for Customer Success
+* Module 19 — Reporting & Performance Metrics
+* Module 20 — Final Assessment & Certification
+
+---
+
+# 📂 Supporting Resources
+
+The academy will also include:
+
+## SOP Library
+
+Step-by-step operational procedures for daily Customer Success activities.
+
+Examples:
+
+* Logging customer calls
+* Creating follow-up tasks
+* CRM hygiene reviews
+* Customer onboarding
+* Invoice follow-ups
+
+---
+
+## Templates
+
+Ready-to-use templates including:
+
+* Customer emails
+* Meeting agendas
+* Meeting minutes
+* Follow-up emails
+* Business reviews
+* Account review templates
+
+---
+
+## Resources
+
+Supporting documents such as:
+
+* Customer playbooks
+* CRM guides
+* Internal Tracker guides
+* OneDrive standards
+* AI prompt library
+* Best practice documents
+
+---
+
+# 🎯 Learning Approach
+
+Each module follows a standardized structure:
+
+* Module Information
+* Learning Objectives
+* Business Context
+* Core Concepts
+* Best Practices
+* Real VBS Scenarios
+* AI Assistant Tips
+* Quick Reference Guide
+* Knowledge Check
+* Challenge Exercise
+* Related Resources
+* Module Summary
+
+This consistent format ensures an engaging and practical learning experience.
+
+---
+
+# 🚀 Project Status
+
+| Area            | Status         |
+| --------------- | -------------- |
+| Academy Modules | 🚧 In Progress |
+| SOP Library     | 🚧 Planned     |
+| Templates       | 🚧 Planned     |
+| Resources       | 🚧 Planned     |
+| Certification   | 🚧 Planned     |
+
+Current Progress:
+
+* ✅ Modules Completed: **10 / 20**
+* 🚧 Modules Remaining: **10**
+
+---
+
+# 👨‍💻 Author
+
+**Sharad Puri**
+
+Customer Success Manager
+
+Virtual Building Studio (VBS)
+
+---
+
+# 🌟 Vision
+
+The long-term vision of the **VBS Customer Success Academy** is to become the single source of truth for Customer Success training at Virtual Building Studio.
+
+By combining structured learning, practical SOPs, templates, AI guidance, and real-world examples, the academy will help every Customer Success Manager deliver consistent, high-quality customer experiences and contribute to the continued growth of VBS.
+
+---
+
+**⭐ If you're part of the VBS team, use this academy as your roadmap to becoming a confident and successful Customer Success Manager.**
