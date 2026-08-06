@@ -278,3 +278,21 @@ Planned additions:
 | 📖 Standards | Repository standards and governance |
 | 🗺️ Roadmap | Project roadmap |
 | 📜 Changelog | Version history |
+
+## 🖼️ Visual Documentation
+
+The academy includes visual assets to simplify complex Customer Success concepts.
+
+### Available
+
+- Repository structure
+- Folder organization
+
+### Coming Soon
+
+- Customer Journey
+- Escalation Workflow
+- Customer Lifecycle
+- Renewal Journey
+- Invoice Workflow
+- Health Score Flow
