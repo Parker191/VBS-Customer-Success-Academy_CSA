@@ -53,7 +53,7 @@ All notable changes to this project will be documented here.
 - Templates
 - AI Prompt Library
 
-- ## Version 2.1
+## Version 2.1
 
 ### Added
 
