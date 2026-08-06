@@ -15,11 +15,21 @@ theme:
 
 nav:
   - Home: index.md
+
+  - Knowledge Hub:
+      - Overview: knowledge-hub.md
+      - Customer Lifecycle: lifecycle.md
+      - Customer Health: health.md
+      - Communication: communication.md
+      - Operations: operations.md
+      - Revenue: revenue.md
+  
   - Academy:
       - Modules: modules.md
       - SOP Library: sops.md
       - Email Templates: emails.md
       - Meeting Templates: meetings.md
+      
   - Standards: standards.md
   - Roadmap: roadmap.md
 
