@@ -1,3 +1,20 @@
+# 📑 Table of Contents
+
+- [📖 About](#-about)
+- [🎯 Academy Objectives](#-academy-objectives)
+- [🗺️ Learning Journey](#️-learning-journey)
+- [📊 Academy Progress](#-academy-progress)
+- [📈 Overall Progress](#-overall-progress)
+- [📚 Academy Structure](#-academy-structure)
+- [📂 Repository Structure](#-repository-structure)
+- [🛠️ What's Included](#️-whats-included)
+- [🚀 Roadmap](#-roadmap)
+- [🎯 Academy Goals](#-academy-goals)
+- [🏆 Certification Path](#-certification-path)
+- [🌟 Vision](#-vision)
+- [🚀 Next Module](#-next-module)
+- [📜 License](#-license)
+
 # 📂 Repository Structure
 
 ```text
@@ -34,3 +51,27 @@ VBS-Customer-Success-Academy_CSA/
 | 📧 Email Templates | Professional Customer Success email templates *(Coming Soon)* |
 | 📝 Forms | Customer Success forms *(Coming Soon)* |
 | 📂 Resources | Reference material and guides *(Coming Soon)* |
+
+# 📊 Repository Statistics
+
+| Item | Current |
+|------|--------:|
+| Training Modules | 11 / 20 |
+| SOPs | 0 |
+| Templates | 0 |
+| AI Prompt Libraries | 0 |
+| Customer Playbooks | 0 |
+| Meeting Templates | 0 |
+| Email Templates | 0 |
+| Forms | 0 |
+| Resources | 0 |
+
+---
+
+## 🎯 Project Completion
+
+```
+Overall Academy      ███████████░░░░░░░░░ 55%
+Documentation        ██████████░░░░░░░░░░ 50%
+Supporting Assets    ░░░░░░░░░░░░░░░░░░░░ 0%
+```
