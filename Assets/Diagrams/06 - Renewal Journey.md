@@ -1,11 +1,21 @@
-# Diagram Name
+# 🔁 Renewal Journey
 
-## Purpose
+```mermaid
+flowchart LR
 
-Describe what this diagram explains.
+A[90 Days Before Renewal]
 
-## Status
+A --> B[Customer Health Review]
 
-🚧 Coming Soon
+B --> C[Business Review]
 
-This diagram will be created during Version 5.0.
+C --> D[Renewal Planning]
+
+D --> E[Proposal]
+
+E --> F[Negotiation]
+
+F --> G[Renewal]
+
+G --> H[Expansion]
+```
