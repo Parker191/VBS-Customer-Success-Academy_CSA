@@ -421,6 +421,207 @@ Always review AI-generated content before sending it to customers.
 
 ---
 
+---
+
+# ⭐ Best Practices
+
+Successful Customer Success Managers:
+
+- Verify invoice details before communicating with customers.
+- Coordinate closely with the Finance team.
+- Keep customers informed with timely updates.
+- Document all important billing conversations in Zoho CRM.
+- Follow up professionally and consistently.
+- Set realistic expectations.
+- Thank customers when payments are confirmed.
+- Maintain a solution-oriented approach.
+
+---
+
+# ⚠️ Common Mistakes
+
+Avoid these common mistakes:
+
+- Sharing unverified information.
+- Blaming internal teams.
+- Ignoring customer billing questions.
+- Using aggressive payment reminder language.
+- Forgetting to update CRM records.
+- Promising payment dates without confirmation.
+- Delaying follow-up after customer responses.
+
+---
+
+> ✅ **Key Takeaways**
+>
+> Professional communication, accurate information, and proactive follow-up create a positive billing experience for customers.
+
+---
+
+---
+
+# 🏢 Real VBS Scenario
+
+A customer emails stating that Invoice #4280 has not reached their Accounts team.
+
+As the Customer Success Manager, you:
+
+1. Verify the invoice status with the Finance team.
+2. Confirm whether the invoice has already been sent.
+3. If required, request that Finance resend the invoice.
+4. Inform the customer of the latest status.
+5. Update Zoho CRM with the communication.
+6. Follow up to ensure the customer has successfully received the invoice.
+
+This proactive approach keeps the customer informed while maintaining trust and professionalism.
+
+---
+
+---
+
+# 📚 Quick Reference
+
+| Situation | Recommended CSM Action |
+|------------|------------------------|
+| Customer requests invoice copy | Coordinate with Finance and share the latest status |
+| Customer has a billing question | Verify internally before responding |
+| Payment is overdue | Send a professional follow-up |
+| Customer reports payment completed | Confirm with Finance before updating the customer |
+| Billing dispute | Coordinate with Finance and follow the escalation process |
+
+---
+
+> 💡 **Remember**
+
+The Customer Success Manager owns the **customer communication**, while the Finance team owns the **financial transaction**.
+
+---
+
+---
+
+# 📝 Knowledge Check
+
+### 1. What is the primary responsibility of a Customer Success Manager during invoice management?
+
+- [ ] Process customer payments.
+- [x] Coordinate communication and provide invoice updates.
+- [ ] Generate invoices.
+- [ ] Approve invoices.
+
+---
+
+### 2. Who is primarily responsible for processing customer payments?
+
+- [ ] Customer Success
+- [x] Finance
+- [ ] Delivery
+- [ ] Sales
+
+---
+
+### 3. True or False
+
+A Customer Success Manager should verify invoice details before responding to customer billing questions.
+
+**Answer:** True
+
+---
+
+---
+
+# 🎯 Challenge Exercise
+
+A customer informs you that their invoice is still awaiting internal approval.
+
+Prepare the following:
+
+- A professional customer response.
+- An internal update to the Finance team.
+- CRM notes summarizing the conversation.
+- Three follow-up actions.
+- A target follow-up date.
+
+Discuss your approach with your manager or mentor to confirm that your communication is clear, accurate, and customer-focused.
+
+---
+
+---
+
+# 🧰 Ready-to-Use Toolkit
+
+This module will eventually include:
+
+## 📄 SOPs
+
+- SOP – Request an Invoice from Finance
+- SOP – Share an Invoice with a Customer
+- SOP – Handle Billing Questions
+- SOP – Escalate Payment Issues
+
+## 📄 Templates
+
+- Invoice Follow-up Email
+- Payment Reminder Email
+- Internal Finance Request
+- Payment Confirmation Email
+
+## 🤖 AI Prompts
+
+- Draft a payment reminder
+- Summarize billing communication
+- Create CRM notes from an invoice discussion
+- Write an internal Finance update
+
+---
+
+---
+
+# 📦 Module Summary
+
+Congratulations!
+
+You have completed **Module 13 – Invoice & Payment Management.**
+
+In this module, you learned:
+
+- The complete invoice lifecycle.
+- The role of Customer Success in invoice management.
+- How to communicate professionally with customers regarding billing.
+- Payment follow-up best practices.
+- When and how to escalate payment-related issues.
+- How AI can improve communication and documentation.
+
+Remember:
+
+> **Customer Success Managers support the billing experience by managing communication, building trust, and coordinating effectively with internal teams.**
+
+---
+
+# 🔗 Related Resources
+
+## Related SOPs *(Coming Soon)*
+
+- SOP – Invoice Request Process
+- SOP – Payment Follow-up
+- SOP – Billing Escalation
+- SOP – CRM Invoice Updates
+
+## Related Templates *(Coming Soon)*
+
+- Invoice Follow-up Email
+- Payment Reminder
+- Payment Confirmation
+- Internal Finance Update
+
+---
+
+# ➡️ Next Module
+
+## 🚨 Module 14 – Customer Escalation Management
+
+In the next module, you'll learn how to identify, manage, document, and resolve customer escalations while protecting customer relationships and collaborating effectively with internal teams.
+
+---
 
 Invoice Status Flow
 
