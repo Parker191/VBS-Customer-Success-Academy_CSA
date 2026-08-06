@@ -37,3 +37,14 @@ All notable changes to this project will be documented here.
 - Key Takeaways
 - VBS in Practice callouts
 - Ready-to-Use Toolkit section
+
+## Version 2.2
+
+### Added
+- Module 13 – Invoice & Payment Management
+
+### Improved
+- Decision Point learning activity
+- Sample customer communication
+- Invoice lifecycle workflow
+- Payment follow-up best practices
