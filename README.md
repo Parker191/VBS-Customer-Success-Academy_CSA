@@ -354,3 +354,16 @@ The VBS Customer Success Academy is designed to:
 - Provide reusable templates and SOPs.
 - Improve customer experience consistency.
 - Serve as a long-term internal knowledge base.
+
+## 👨‍💼 About This Project
+
+This repository demonstrates practical experience in:
+
+- Customer Success Operations
+- Process Documentation
+- Knowledge Management
+- Technical Documentation
+- GitHub Documentation Best Practices
+- Enterprise Documentation Standards
+
+It is intended as both a learning resource and a professional portfolio project.
