@@ -108,3 +108,13 @@ Benefits:
 - Builds customer confidence.
 - Creates accountability.
 - Provides a written record for future reference.
+
+---
+## ✨ Customization Notes
+
+Before sending:
+
+- Replace all placeholder values (e.g., [Customer Name], [Project Name]).
+- Review the tone and adjust if needed.
+- Verify dates, links, and contact information.
+- Update the CRM after sending the email.
