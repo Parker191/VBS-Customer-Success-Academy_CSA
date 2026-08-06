@@ -40,6 +40,16 @@ Content should be:
 - Action-oriented.
 - Based on real business scenarios.
 
+## Review Process
+
+Before merging major academy updates:
+
+1. Content review
+2. Accuracy check
+3. Formatting review
+4. README update
+5. Final approval
+
 ## Commit Messages
 
 Examples:
