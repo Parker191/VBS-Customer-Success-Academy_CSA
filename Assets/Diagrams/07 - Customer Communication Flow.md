@@ -1,11 +1,15 @@
-# Diagram Name
+# 📞 Customer Communication Flow
 
-## Purpose
+```mermaid
+flowchart LR
 
-Describe what this diagram explains.
+Email --> Meeting
 
-## Status
+Meeting --> ActionItems
 
-🚧 Coming Soon
+ActionItems --> CRM
 
-This diagram will be created during Version 5.0.
+CRM --> FollowUp
+
+FollowUp --> Customer
+```
