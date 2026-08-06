@@ -4,6 +4,21 @@ All notable changes to this project will be documented here.
 
 ---
 
+## Version 5.0 (In Progress)
+
+### Added
+
+- Repository Standards
+- GitHub Health Files
+- Documentation Governance
+
+### Planned
+
+- Visual Diagrams
+- GitHub Pages
+- AI Prompt Library
+- Customer Playbooks
+
 ## Version 3.0
 
 ### Added
