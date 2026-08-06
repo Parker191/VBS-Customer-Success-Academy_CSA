@@ -56,7 +56,7 @@ VBS-Customer-Success-Academy_CSA/
 
 | Item | Current |
 |------|--------:|
-| Training Modules | 11 / 20 |
+| Training Modules | 12 / 20 |
 | SOPs | 0 |
 | Templates | 0 |
 | AI Prompt Libraries | 0 |
@@ -71,7 +71,7 @@ VBS-Customer-Success-Academy_CSA/
 ## 🎯 Project Completion
 
 ```
-Overall Academy      ███████████░░░░░░░░░ 55%
+Overall Academy      ███████████░░░░░░░░░ 60%
 Documentation        ██████████░░░░░░░░░░ 50%
 Supporting Assets    ░░░░░░░░░░░░░░░░░░░░ 0%
 ```
