@@ -336,3 +336,14 @@ Navigate the academy by business function instead of folder structure.
 - ⚙️ Operations
 - 💰 Revenue
 - 🎓 Learning Paths
+
+
+## 💡 Why This Repository?
+
+The VBS Customer Success Academy is designed to:
+
+- Standardize Customer Success processes.
+- Accelerate onboarding for new CSMs.
+- Provide reusable templates and SOPs.
+- Improve customer experience consistency.
+- Serve as a long-term internal knowledge base.
