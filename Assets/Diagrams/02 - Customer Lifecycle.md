@@ -1,11 +1,24 @@
-# Diagram Name
+# 🔄 Customer Lifecycle
 
-## Purpose
+```mermaid
+graph TD
 
-Describe what this diagram explains.
+A[Prospect]
+A --> B[Onboarding]
 
-## Status
+B --> C[Implementation]
 
-🚧 Coming Soon
+C --> D[Adoption]
 
-This diagram will be created during Version 5.0.
+D --> E[Value Realization]
+
+E --> F[Growth]
+
+F --> G[Renewal]
+
+G --> H[Advocacy]
+```
+
+## Objective
+
+Demonstrates the progression of a customer relationship from acquisition to advocacy.
