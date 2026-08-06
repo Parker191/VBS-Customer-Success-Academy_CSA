@@ -266,3 +266,15 @@ Planned additions:
 # 🎓 VBS Customer Success Academy
 
 **Building world-class Customer Success professionals through structured learning, processes, and continuous improvement.**
+
+## 📚 Repository Navigation
+
+| Section | Description |
+|---------|-------------|
+| 📘 Academy Modules | Customer Success learning curriculum |
+| 📋 SOP Library | Standard Operating Procedures |
+| 📧 Email Templates | Ready-to-use customer communications |
+| 📅 Meeting Templates | Structured meeting guides |
+| 📖 Standards | Repository standards and governance |
+| 🗺️ Roadmap | Project roadmap |
+| 📜 Changelog | Version history |
