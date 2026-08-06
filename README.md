@@ -310,3 +310,16 @@ The academy includes Mermaid diagrams that render directly on GitHub.
 - Customer Health Flow
 - Renewal Journey
 - Customer Communication Flow
+
+## 🌐 Documentation Website
+
+A dedicated documentation website is being developed using **MkDocs Material**.
+
+### Planned Features
+
+- Full-text search
+- Responsive navigation
+- Dark mode
+- Mermaid diagrams
+- Mobile-friendly layout
+- Printable documentation
