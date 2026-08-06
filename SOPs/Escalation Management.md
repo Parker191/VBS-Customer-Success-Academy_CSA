@@ -62,73 +62,224 @@ Use this SOP when:
 
 ---
 
+---
+
 # 📂 Escalation Categories
 
-## Delivery Escalation
-
-## Quality Escalation
-
-## Communication Escalation
-
-## Financial Escalation
-
-## Relationship Escalation
+Understanding the type of escalation helps the CSM assign the right owner and resolution approach.
 
 ---
 
-Reason:
-A CSM needs to know who owns what.
+## 🏗️ Delivery Escalation
 
-Example:
+### Examples:
 
-| Escalation Type | Primary Owner    | Support    |
-| --------------- | ---------------- | ---------- |
-| Delivery        | Delivery Manager | CSM        |
-| Quality         | QA/Delivery Lead | CSM        |
-| Payment         | Finance          | CSM        |
-| Customer Risk   | CSM              | Leadership |
+- Project delivery delays.
+- Missed milestones.
+- Resource availability issues.
+- Incorrect deliverables.
+
+### Primary Owner:
+
+Delivery Manager
+
+### CSM Responsibility:
+
+- Customer communication.
+- Tracking resolution.
+- Providing updates.
+
+---
+
+## 🎯 Quality Escalation
+
+### Examples:
+
+- BIM model quality concerns.
+- Multiple correction cycles.
+- Deliverables not meeting expectations.
+- Customer rejection.
+
+### Primary Owner:
+
+QA Team / Delivery Lead
+
+### CSM Responsibility:
+
+- Capture customer feedback.
+- Track improvement actions.
+
+---
+
+## 💬 Communication Escalation
+
+### Examples:
+
+- Delayed responses.
+- Lack of project updates.
+- Customer feels ignored.
+- Misalignment in expectations.
+
+### Primary Owner:
+
+Customer Success Manager
+
+---
+
+## 💰 Financial Escalation
+
+### Examples:
+
+- Invoice disputes.
+- Payment delays.
+- Billing concerns.
+
+### Primary Owner:
+
+Finance Team + CSM
+
+---
+
+## 🤝 Relationship Escalation
+
+### Examples:
+
+- Customer dissatisfaction.
+- Churn risk.
+- Cancellation discussion.
+- Loss of customer confidence.
+
+### Primary Owner:
+
+CSM + Leadership Team
+
+---
+
+---
+
+# 👥 Escalation Ownership Matrix
+
+| Escalation Type | Primary Owner | Support Team |
+|---|---|---|
+| Delivery Issue | Delivery Manager | CSM |
+| Quality Issue | QA / Delivery Lead | CSM |
+| Communication Issue | CSM | Internal Teams |
+| Payment Issue | Finance Team | CSM |
+| Relationship Risk | CSM | Leadership / KAM |
+
+---
+
+---
 
 # 📝 Escalation CRM Tracking
 
-Required Fields:
+Every escalation must be documented in the CRM or Client Master Tracker.
 
-- Customer Name
-- Escalation Type
-- Severity Level
-- Issue Summary
-- Owner
-- Action Plan
-- Expected Resolution Date
-- Status
+Required Information:
+
+| Field | Details |
+|---|---|
+| Customer Name | Account name |
+| Escalation Date | Date raised |
+| Escalation Type | Delivery/Quality/etc. |
+| Severity Level | Level 1/2/3 |
+| Issue Summary | Description of concern |
+| Customer Impact | Business impact |
+| Owner | Responsible person |
+| Action Plan | Resolution steps |
+| Expected Closure Date | Target date |
+| Status | Open/In Progress/Closed |
+
+---
+
+---
 
 # 🔍 Root Cause Analysis (RCA)
 
-## Problem
+For Level 2 and Level 3 escalations, CSM must complete an RCA.
+
+## Problem Statement
+
+What happened?
+
+---
 
 ## Root Cause
 
-## Impact
+Why did this happen?
+
+Possible reasons:
+
+- Process gap.
+- Communication gap.
+- Training gap.
+- Resource issue.
+- Quality failure.
+
+---
+
+## Impact Assessment
+
+Impact on:
+
+- Customer experience.
+- Project delivery.
+- Revenue.
+- Relationship.
+
+---
 
 ## Corrective Action
 
+Immediate steps taken to resolve the issue.
+
+---
+
 ## Preventive Action
+
+Steps implemented to avoid recurrence.
+
+---
+
+---
 
 # ✅ Escalation Closure Checklist
 
-☐ Issue resolved
+Before closing an escalation:
 
-☐ Customer informed
+☐ Issue resolved.
 
-☐ Customer confirmation received
+☐ Customer informed.
 
-☐ CRM updated
+☐ Customer confirmation received.
 
-☐ RCA completed
+☐ Internal teams updated.
 
-☐ Preventive action documented
+☐ CRM updated.
 
-☐ Health Score reviewed
+☐ RCA completed (if required).
 
+☐ Preventive actions documented.
+
+☐ Customer Health Score reviewed.
+
+---
+
+---
+
+# 📊 Escalation Management Metrics
+
+CSM should monitor:
+
+| Metric | Target |
+|---|---|
+| Open Escalations | Minimize |
+| Critical Escalations | Zero |
+| Resolution Within SLA | >95% |
+| Repeat Escalations | Reduce |
+| RCA Completion | 100% |
+
+---
 # 🚦 Escalation Severity Levels
 
 ## 🟢 Level 1 — Low Severity
