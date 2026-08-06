@@ -1,11 +1,31 @@
-# Diagram Name
+# ❤️ Customer Health Flow
 
-## Purpose
+```mermaid
+flowchart TD
 
-Describe what this diagram explains.
+A[Health Indicators]
 
-## Status
+A --> B[Communication]
 
-🚧 Coming Soon
+A --> C[Delivery]
 
-This diagram will be created during Version 5.0.
+A --> D[Invoices]
+
+A --> E[Satisfaction]
+
+B --> F[Health Score]
+
+C --> F
+
+D --> F
+
+E --> F
+
+F --> G{Status}
+
+G -->|Green| H[Healthy]
+
+G -->|Yellow| I[Monitor]
+
+G -->|Red| J[Escalate]
+```
