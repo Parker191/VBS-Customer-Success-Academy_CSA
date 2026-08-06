@@ -296,3 +296,17 @@ The academy includes visual assets to simplify complex Customer Success concepts
 - Renewal Journey
 - Invoice Workflow
 - Health Score Flow
+
+## 📊 Visual Workflows
+
+The academy includes Mermaid diagrams that render directly on GitHub.
+
+### Available Diagrams
+
+- Customer Journey
+- Customer Lifecycle
+- Escalation Workflow
+- Invoice Lifecycle
+- Customer Health Flow
+- Renewal Journey
+- Customer Communication Flow
