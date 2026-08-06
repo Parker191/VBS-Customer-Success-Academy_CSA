@@ -1,10 +1,17 @@
 # 🎓 VBS Customer Success Academy
 
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![Modules](https://img.shields.io/badge/Modules-20-blue)
-![Certification](https://img.shields.io/badge/Certification-VCCSP-gold)
+> **A complete Customer Success Knowledge Base built for Virtual Building Studio (VBS).**
 
----
+<p align="center">
+
+![Version](https://img.shields.io/badge/version-5.0-blue)
+![Status](https://img.shields.io/badge/status-Active-success)
+![Documentation](https://img.shields.io/badge/docs-55%2B%20Documents-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Markdown](https://img.shields.io/badge/Built%20With-Markdown-blue)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Ready-purple)
+
+</p>
 
 # 🏢 About The Academy
 
