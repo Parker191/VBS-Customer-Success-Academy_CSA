@@ -62,7 +62,72 @@ Use this SOP when:
 
 ---
 
+# 📂 Escalation Categories
+
+## Delivery Escalation
+
+## Quality Escalation
+
+## Communication Escalation
+
+## Financial Escalation
+
+## Relationship Escalation
+
 ---
+
+Reason:
+A CSM needs to know who owns what.
+
+Example:
+
+| Escalation Type | Primary Owner    | Support    |
+| --------------- | ---------------- | ---------- |
+| Delivery        | Delivery Manager | CSM        |
+| Quality         | QA/Delivery Lead | CSM        |
+| Payment         | Finance          | CSM        |
+| Customer Risk   | CSM              | Leadership |
+
+# 📝 Escalation CRM Tracking
+
+Required Fields:
+
+- Customer Name
+- Escalation Type
+- Severity Level
+- Issue Summary
+- Owner
+- Action Plan
+- Expected Resolution Date
+- Status
+
+# 🔍 Root Cause Analysis (RCA)
+
+## Problem
+
+## Root Cause
+
+## Impact
+
+## Corrective Action
+
+## Preventive Action
+
+# ✅ Escalation Closure Checklist
+
+☐ Issue resolved
+
+☐ Customer informed
+
+☐ Customer confirmation received
+
+☐ CRM updated
+
+☐ RCA completed
+
+☐ Preventive action documented
+
+☐ Health Score reviewed
 
 # 🚦 Escalation Severity Levels
 
