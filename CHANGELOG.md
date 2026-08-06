@@ -4,6 +4,35 @@ All notable changes to this project will be documented here.
 
 ---
 
+## Version 3.0
+
+### Added
+
+- Complete 20-module VBS Customer Success Academy
+- Module 14 – Customer Success Operations
+- Module 15 – Renewal Management
+- Module 16 – Upselling, Cross-selling & Growth
+- Module 17 – AI for Customer Success
+- Module 18 – Reporting & Executive Dashboards
+- Module 19 – Customer Success Playbooks & SOPs
+- Module 20 – Final Assessment & Certification
+
+### Added
+
+- VBS Certified Customer Success Professional (VCCSP) framework
+- Final assessment structure
+- Practical CSM case study
+- Certification checklist
+- Graduation framework
+
+### Improved
+
+- Complete README documentation
+- Academy roadmap
+- Repository structure
+- Learning progression
+- Certification journey
+
 ## Version 2.0
 
 ### Added
