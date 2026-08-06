@@ -1,11 +1,29 @@
-# Diagram Name
+# 🚨 Escalation Workflow
 
-## Purpose
+```mermaid
+flowchart TD
 
-Describe what this diagram explains.
+A[Issue Reported]
 
-## Status
+A --> B[CSM Review]
 
-🚧 Coming Soon
+B --> C{Severity?}
 
-This diagram will be created during Version 5.0.
+C -->|Low| D[Resolve]
+
+C -->|Medium| E[Delivery Manager]
+
+C -->|High| F[Leadership]
+
+D --> G[Customer Confirmation]
+
+E --> G
+
+F --> G
+
+G --> H[Close Escalation]
+```
+
+## Objective
+
+Ensure every escalation follows a consistent and transparent process.
