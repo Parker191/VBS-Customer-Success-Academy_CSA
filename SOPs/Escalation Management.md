@@ -431,3 +431,179 @@ After resolution:
 - Close escalation.
 
 ---
+
+---
+
+# 🔍 Root Cause Analysis (RCA)
+
+After every major escalation, perform a Root Cause Analysis to identify why the issue occurred and how to prevent it in the future.
+
+---
+
+## RCA Questions
+
+- What happened?
+- When did it happen?
+- Who was impacted?
+- Why did it happen?
+- Could it have been prevented?
+- What changes are required?
+
+---
+
+## RCA Template
+
+| Question | Response |
+|----------|----------|
+| Incident Summary | |
+| Root Cause | |
+| Business Impact | |
+| Customer Impact | |
+| Corrective Action | |
+| Preventive Action | |
+| Owner | |
+| Completion Date | |
+
+---
+
+> **Best Practice:** Focus on improving the process, not assigning blame.
+
+---
+
+# 🛠️ Corrective & Preventive Action (CAPA)
+
+After identifying the root cause, define actions to resolve the issue and prevent it from happening again.
+
+| Action Type | Purpose | Example |
+|-------------|---------|---------|
+| Corrective Action | Fix the current issue | Rework BIM model |
+| Preventive Action | Prevent recurrence | Add an additional QA review before delivery |
+
+---
+
+## CAPA Checklist
+
+- [ ] Root cause confirmed.
+- [ ] Corrective action completed.
+- [ ] Preventive action implemented.
+- [ ] Customer informed.
+- [ ] Internal documentation updated.
+
+---
+
+# 📝 CRM Documentation
+
+Every escalation should be recorded in the CRM.
+
+## Required Information
+
+- Customer Name
+- Project Name
+- Escalation Date
+- Severity Level
+- Issue Summary
+- Root Cause
+- Action Taken
+- Current Status
+- Next Follow-up Date
+- Owner
+- Resolution Date
+
+---
+
+## Status Options
+
+- Open
+- In Progress
+- Waiting on Customer
+- Waiting on Internal Team
+- Resolved
+- Closed
+
+---
+
+# ✅ Escalation Closure Checklist
+
+Before closing an escalation, confirm:
+
+- [ ] Issue resolved.
+- [ ] Customer informed.
+- [ ] Customer confirms satisfaction.
+- [ ] CRM updated.
+- [ ] RCA completed.
+- [ ] CAPA documented.
+- [ ] Internal stakeholders notified.
+- [ ] Lessons learned shared.
+
+---
+
+> An escalation should only be closed after the customer acknowledges that the issue has been addressed.
+
+---
+
+# 🏢 VBS Example Scenario
+
+## Situation
+
+A customer reports that a BIM model delivery was delayed by three days, impacting their internal review schedule.
+
+### CSM Actions
+
+1. Acknowledge the concern within the agreed response timeline.
+2. Review the delivery status with the Delivery Manager.
+3. Identify the reason for the delay.
+4. Share a revised delivery timeline with the customer.
+5. Coordinate corrective actions with the project team.
+6. Complete the RCA and CAPA.
+7. Confirm customer satisfaction after delivery.
+8. Update the CRM and close the escalation.
+
+---
+
+## Expected Outcome
+
+- Customer receives timely communication.
+- Delivery issue is resolved.
+- Future delays are reduced through preventive actions.
+- Customer confidence is maintained.
+
+---
+
+# 📊 Escalation KPIs
+
+Monitor the effectiveness of the escalation process using the following KPIs:
+
+| KPI | Target |
+|-----|--------|
+| First Response Time | Within SLA |
+| Resolution Time | As per severity |
+| Escalations Closed on Time | ≥ 95% |
+| Customer Satisfaction After Resolution | ≥ 90% |
+| Repeat Escalations | Minimize |
+
+---
+
+# 📚 Related Documents
+
+- Customer Health Management SOP
+- Project Coordination SOP
+- Business Reviews SOP
+- Customer Feedback SOP
+- Module 12 – Escalation Management
+- Module 19 – Customer Success Playbooks & SOPs
+
+---
+
+# 📦 Version History
+
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0 | August 2026 | Initial release |
+
+---
+
+# 🎯 Key Takeaway
+
+> A successful escalation process is not measured by how fast a problem is closed, but by how effectively customer trust is restored and future issues are prevented.
+
+
