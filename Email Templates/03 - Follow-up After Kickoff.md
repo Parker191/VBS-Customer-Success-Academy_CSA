@@ -94,3 +94,17 @@ Virtual Building Studio
 - Customer Onboarding SOP
 - Business Reviews SOP
 - Module 09 – Meetings & Business Reviews
+
+---
+
+# 💡 VBS Best Practice
+
+Always send the kickoff follow-up within **24 hours**.
+
+Benefits:
+
+- Prevents misunderstandings.
+- Documents agreed actions.
+- Builds customer confidence.
+- Creates accountability.
+- Provides a written record for future reference.
