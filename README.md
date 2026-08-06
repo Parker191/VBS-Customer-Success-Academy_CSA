@@ -259,7 +259,7 @@ Planned additions:
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | August 2026 | Complete 20-module academy launch |
+| 3.0 | August 2026 | Complete 20-module academy launch |
 
 ---
 
