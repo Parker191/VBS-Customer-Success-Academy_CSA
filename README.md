@@ -323,3 +323,16 @@ A dedicated documentation website is being developed using **MkDocs Material**.
 - Mermaid diagrams
 - Mobile-friendly layout
 - Printable documentation
+
+## 🧠 Knowledge Hub
+
+Navigate the academy by business function instead of folder structure.
+
+### Topics
+
+- 👋 Customer Lifecycle
+- ❤️ Customer Health
+- 💬 Communication
+- ⚙️ Operations
+- 💰 Revenue
+- 🎓 Learning Paths
