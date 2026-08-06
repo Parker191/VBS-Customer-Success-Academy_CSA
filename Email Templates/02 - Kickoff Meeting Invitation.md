@@ -80,3 +80,7 @@ Virtual Building Studio
 - Customer Onboarding SOP
 - Meeting Documentation SOP
 - Module 04 – Customer Onboarding
+
+⭐ Best Practice
+
+Add a calendar invite immediately after sending this email so the meeting is saved on everyone's calendar.
