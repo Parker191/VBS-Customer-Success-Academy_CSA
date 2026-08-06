@@ -1,11 +1,19 @@
-# Diagram Name
+# 💰 Invoice Lifecycle
 
-## Purpose
+```mermaid
+flowchart LR
 
-Describe what this diagram explains.
+A[Project Completed]
 
-## Status
+A --> B[Invoice Raised]
 
-🚧 Coming Soon
+B --> C[Invoice Sent]
 
-This diagram will be created during Version 5.0.
+C --> D[Customer Review]
+
+D --> E[Payment Received]
+
+E --> F[Payment Confirmed]
+
+F --> G[Invoice Closed]
+```
