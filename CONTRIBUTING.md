@@ -22,6 +22,24 @@ Use the following format for module files:
 
 20 - Module Name.md
 
+## Content Quality Standards
+
+All new academy content should include:
+
+- Learning Objective
+- Explanation of Concept
+- Practical Example
+- Process or Framework
+- Checklist or Activity
+- Key Takeaways
+
+Content should be:
+
+- Customer Success focused.
+- Easy for beginners to understand.
+- Action-oriented.
+- Based on real business scenarios.
+
 ## Commit Messages
 
 Examples:
