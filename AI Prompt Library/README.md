@@ -265,7 +265,54 @@ The AI Prompt Library will eventually include:
 - Knowledge Hub
 
 ---
+---
+
+# 📚 Prompt Index
+
+| # | Category | Prompt | Primary Use |
+|---|---|---|---|
+| 01 | Customer Communication | Customer Follow-Up Email | Customer emails |
+| 02 | Customer Health | Customer Health Risk Analyzer | Health & risk assessment |
+| 03 | Meetings | Meeting Preparation Assistant | Meeting preparation |
+| 04 | Escalations | Escalation & RCA Assistant | Escalation analysis |
+| 05 | Reporting | Executive Reporting Assistant | Leadership reporting |
+| 06 | Revenue & Expansion | Revenue Expansion Opportunity Analyzer | Growth opportunities |
+| 07 | Onboarding | Customer Onboarding Assistant | Customer onboarding |
+| 08 | Productivity | CSM Productivity Assistant | Daily prioritization |
+
+---
+
+# 🏆 Current Library Status
+
+**Core Prompts:** 8
+
+**Categories:** 8 active + 1 planned
+
+**Status:** 🚧 Version 6.0 In Development
+
+---
+
+# 🗺️ Planned Expansion
+
+Future prompts will cover:
+
+- Renewal preparation
+- Customer sentiment analysis
+- QBR creation
+- Customer success plans
+- Meeting summaries
+- Action-item extraction
+- CRM note generation
+- Customer feedback analysis
+- Executive communication
+- AI prompt engineering
+
+---
+
+> 💡 **Quality over quantity:** The goal is to create practical, reusable prompts that solve real Customer Success problems—not simply to collect a large number of prompts.
 
 **Version:** 6.0  
 **Status:** 🚧 In Development  
 **Owner:** Customer Success Team
+
+
