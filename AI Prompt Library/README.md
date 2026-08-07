@@ -29,7 +29,6 @@ Choose the category that matches your task.
 | 🚀 Onboarding | Kickoff preparation and onboarding planning |
 | ⚡ Productivity | Daily CSM tasks and time-saving workflows |
 | 🧠 Prompt Engineering | Building better AI prompts |
-
 ---
 
 # ⚠️ Important Rule
@@ -272,40 +271,65 @@ The AI Prompt Library will eventually include:
 | # | Category | Prompt | Primary Use |
 |---|---|---|---|
 | 01 | Customer Communication | Customer Follow-Up Email | Customer emails |
-| 02 | Customer Health | Customer Health Risk Analyzer | Health & risk assessment |
-| 03 | Meetings | Meeting Preparation Assistant | Meeting preparation |
-| 04 | Escalations | Escalation & RCA Assistant | Escalation analysis |
-| 05 | Reporting | Executive Reporting Assistant | Leadership reporting |
-| 06 | Revenue & Expansion | Revenue Expansion Opportunity Analyzer | Growth opportunities |
-| 07 | Onboarding | Customer Onboarding Assistant | Customer onboarding |
-| 08 | Productivity | CSM Productivity Assistant | Daily prioritization |
+| 02 | Customer Communication | Customer Communication Quality Reviewer | Review customer communication |
+| 03 | Customer Health | Customer Health Risk Analyzer | Health & risk assessment |
+| 04 | Customer Health | Customer Sentiment & Feedback Analyzer | Sentiment & feedback analysis |
+| 05 | Customer Health | Customer Success Plan Generator | Customer success planning |
+| 06 | Customer Health | Customer Feedback Action Plan Generator | Convert feedback into actions |
+| 07 | Meetings | Meeting Preparation Assistant | Meeting preparation |
+| 08 | Meetings | Meeting Summary & Action Item Extractor | Meeting documentation |
+| 09 | Meetings | QBR Builder & Customer Value Story Generator | QBR preparation |
+| 10 | Escalations | Escalation RCA Assistant | Escalation analysis |
+| 11 | Reporting | Executive Reporting Assistant | Leadership reporting |
+| 12 | Revenue & Expansion | Revenue Expansion Opportunity Analyzer | Growth opportunities |
+| 13 | Revenue & Expansion | Renewal Readiness & Risk Analyzer | Renewal preparation |
+| 14 | Onboarding | Customer Onboarding Assistant | Customer onboarding |
+| 15 | Productivity | CSM Productivity Assistant | Daily prioritization |
+| 16 | Prompt Engineering | Prompt Improvement Assistant | Improve AI prompts |
 
 ---
 
 # 🏆 Current Library Status
 
-**Core Prompts:** 8
+**Core Prompts:** 16
 
-**Categories:** 8 active + 1 planned
+**Categories:** 9
+
+**Active Categories:** 9
 
 **Status:** 🚧 Version 6.0 In Development
 
+**Version:** 6.0
+
+**Owner:** Customer Success Team
+
 ---
 
-# 🗺️ Planned Expansion
+# 🗺️ V7.0 Planned Expansion
 
-Future prompts will cover:
+Future versions may include:
 
-- Renewal preparation
-- Customer sentiment analysis
-- QBR creation
-- Customer success plans
-- Meeting summaries
-- Action-item extraction
-- CRM note generation
-- Customer feedback analysis
-- Executive communication
-- AI prompt engineering
+- CRM Note Generator
+- WBR / MBR Automation
+- Dormant Customer Reactivation Assistant
+- Churn Risk Analyzer
+- Account Handover Assistant
+- Invoice & Payment Follow-Up Assistant
+- Executive Escalation Communication Assistant
+- Voice of Customer Analyzer
+- Referral Opportunity Assistant
+- Advanced AI Prompt Chains
+- Multi-step CSM Workflows
+
+> V7.0 will focus on workflow automation, CRM integration, and connecting multiple CSM activities into end-to-end workflows.
+
+### Advanced CSM Prompt Pattern
+
+For complex workflows, prompts may also follow:
+
+**Input → Analysis → Decision → Action → Review**
+
+This helps convert AI from a simple content generator into a structured CSM decision-support tool.
 
 ---
 
