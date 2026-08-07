@@ -508,6 +508,55 @@ The goal is to make every important customer meeting purposeful and outcome-focu
 
 ---
 
+---
+
+# 🧠 Enhanced Preparation Notes
+
+Before the meeting, also consider:
+
+### Customer Goals
+
+What is the customer trying to achieve right now?
+
+### Financial / Commercial Context
+
+Review relevant commercial information when appropriate and authorized.
+
+### Talking Point Structure
+
+For important topics, prepare:
+
+**What happened?**
+
+[Context]
+
+**What does it mean?**
+
+[Insight]
+
+**What should we do?**
+
+[Recommendation]
+
+**What do we need from the customer?**
+
+[Customer Input]
+
+### Backup Topics
+
+Prepare optional topics if time allows:
+
+- Customer feedback
+- Upcoming projects
+- Stakeholder engagement
+- Success metrics
+- Value delivered
+- Process improvements
+- Future requirements
+- Customer advocacy
+
+Do not force backup topics into the meeting.
+
 **Category:** AI Workflows  
 **Version:** 7.0  
 **Status:** Active  
