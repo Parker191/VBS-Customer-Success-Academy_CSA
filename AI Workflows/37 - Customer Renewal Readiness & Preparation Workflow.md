@@ -59,6 +59,8 @@ Customer Account
       ↓
 15. Update CRM
 
+
+
 1️⃣ Confirm Renewal Information
 
 Verify:
