@@ -1,26 +1,40 @@
 site_name: VBS Customer Success Academy
-
-site_description: Customer Success Learning Portal
+site_description: Customer Success Knowledge Base
+site_author: Parker
 
 theme:
   name: material
 
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
 nav:
-  - Home: README.md
+  - Home: index.md
 
-  - SOP Library:
-      - Daily Planning: SOPs/Daily Planning.md
-      - Customer Onboarding: SOPs/Customer Onboarding.md
-      - Client Engagement: SOPs/Client Engagement.md
-      - CRM Management: SOPs/CRM Management.md
-      - Customer Health: SOPs/Customer Health Management.md
-      - Invoice & Payment: SOPs/Invoice & Payment Management.md
-      - Business Reviews: SOPs/Business Reviews.md
+  - Knowledge Hub:
+      - Overview: knowledge-hub.md
+      - Customer Lifecycle: lifecycle.md
+      - Customer Health: health.md
+      - Communication: communication.md
+      - Operations: operations.md
+      - Revenue: revenue.md
 
-  - Email Templates:
+  - Academy:
+      - Modules: modules.md
+      - SOP Library: sops.md
+      - Email Templates: emails.md
+      - Meeting Templates: meetings.md
+      
+  - Standards: standards.md
+  - Roadmap: roadmap.md
 
-  - CRM Guides:
-
-  - Training Videos:
-
-  - Images:
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
