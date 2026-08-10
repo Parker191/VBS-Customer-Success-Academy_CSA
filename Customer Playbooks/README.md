@@ -2,14 +2,16 @@
 
 Customer Playbooks provide structured guidance for common customer scenarios.
 
-## Planned Playbooks
+## Status
 
-- New Customer
-- At-Risk Customer
-- Renewal
-- Escalation
-- Upsell
-- Cross-sell
-- Referral
+| Playbook | Status |
+|---|---|
+| New Customer | ✅ Complete |
+| At-Risk Customer | ✅ Complete |
+| Renewal | 🔜 Planned |
+| Escalation | 🔜 Planned |
+| Upsell | 🔜 Planned |
+| Cross-sell | 🔜 Planned |
+| Referral | 🔜 Planned |
 
-> Playbooks will be added after Module 20.
+**2 / 7 playbooks complete.**

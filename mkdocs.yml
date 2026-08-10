@@ -1,0 +1,25 @@
+# NOTE: This root-level config is deprecated.
+# The canonical, actively maintained documentation site config is:
+#   docs-site/mkdocs.yml
+# It is built and deployed automatically via .github/workflows/deploy-docs.yml
+#
+# This file is kept only so old bookmarks/links don't break, and mirrors
+# the same site_name. Do not add new nav entries here — add them to
+# docs-site/mkdocs.yml instead.
+
+site_name: VBS Customer Success Academy
+site_description: Customer Success Learning Portal
+
+theme:
+  name: material
+
+nav:
+  - Home: README.md
+  - SOP Library:
+      - Daily Planning: SOPs/Daily Planning.md
+      - Customer Onboarding: SOPs/Customer Onboarding.md
+      - Client Engagement: SOPs/Client Engagement.md
+      - CRM Management: SOPs/CRM Management.md
+      - Customer Health: SOPs/Customer Health Management.md
+      - Invoice & Payment: SOPs/Invoice & Payment Management.md
+      - Business Reviews: SOPs/Business Reviews.md

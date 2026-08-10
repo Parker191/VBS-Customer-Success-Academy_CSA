@@ -2,15 +2,19 @@
 
 This folder contains reusable Customer Success templates.
 
-## Planned Templates
+## Status
 
-- Customer Success Plan
-- Health Scorecard
-- Weekly Business Review
-- Monthly Business Review
-- Quarterly Business Review
-- Executive Summary
-- Meeting Minutes
-- Action Tracker
+| Template | Status |
+|---|---|
+| Customer Success Plan | ✅ Complete |
+| Health Scorecard | ✅ Complete |
+| Weekly Business Review | 🔜 Planned |
+| Monthly Business Review | 🔜 Planned |
+| Quarterly Business Review | 🔜 Planned |
+| Executive Summary | 🔜 Planned |
+| Meeting Minutes | 🔜 Planned |
+| Action Tracker | 🔜 Planned |
+
+**2 / 8 templates complete.**
 
 > Templates will be added after Module 20.
