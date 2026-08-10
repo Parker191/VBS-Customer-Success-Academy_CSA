@@ -128,11 +128,15 @@ The Academy contains 20 core learning modules.
 | 19     | Customer Success Playbooks & SOPs |
 | 20     | Final Assessment & Certification  |
 
-**Curriculum Status
+**📈 Academy Completion
 **
-🟢 20/20 core learning modules established
+The core 20-module learning curriculum has been developed.
 
-The Academy's broader ecosystem continues to evolve beyond the core curriculum.
+**Academy Core: 20 / 20 Modules
+**
+**████████████████████  100%
+**
+The Academy will continue to evolve through additional SOPs, templates, workflows, AI resources, assessments, and future training enhancements.
 
 **🤖 AI Enablement
 **
