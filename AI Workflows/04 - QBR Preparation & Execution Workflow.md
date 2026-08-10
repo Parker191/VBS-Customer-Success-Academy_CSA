@@ -48,6 +48,8 @@ QBR Date
 16. Update CRM
     ↓
 17. Track Follow-Through
+
+
 1️⃣ Confirm QBR Details
 
 Before preparing the QBR, confirm:
@@ -337,6 +339,7 @@ What We Learned
 What Needs Improvement
         ↓
 Where We Go Next
+
 Where We Started
 
 What were the customer's priorities?
