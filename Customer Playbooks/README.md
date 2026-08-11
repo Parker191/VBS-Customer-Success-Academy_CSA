@@ -8,10 +8,10 @@ Customer Playbooks provide structured guidance for common customer scenarios.
 |---|---|
 | New Customer | ✅ Complete |
 | At-Risk Customer | ✅ Complete |
-| Renewal | 🔜 Planned |
-| Escalation | 🔜 Planned |
+| Escalation | ✅ Complete |
+| Renewal | ✅ Complete |
 | Upsell | 🔜 Planned |
 | Cross-sell | 🔜 Planned |
 | Referral | 🔜 Planned |
 
-**2 / 7 playbooks complete.**
+**4 / 7 playbooks complete.**
