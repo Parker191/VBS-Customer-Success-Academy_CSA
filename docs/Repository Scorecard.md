@@ -15,12 +15,12 @@
 | Diagrams (Mermaid) | ✅ Complete | 10 flowcharts |
 | Documentation Site (docs-site) | 🟡 In Progress | Nav fixed, deploy workflow added, still building out content |
 | Repository Governance / GitHub health files | ✅ Complete | SECURITY, CONTRIBUTING, CODE_OF_CONDUCT, issue/PR templates |
-| **Templates** | 🟡 In Progress | 3 of 8 planned templates written (Customer Success Plan, Health Scorecard, Quarterly Business Review) |
-| **Forms** | 🔴 Not Started | Folder contains only a planning README — 0 of 5 planned forms written |
-| **Customer Playbooks** | 🟡 In Progress | 4 of 7 planned playbooks written (New Customer, At-Risk, Escalation, Renewal) |
-| **CRM Guides** | 🔴 Not Started | Folder is empty |
+| **Templates** | ✅ Complete | 8 / 8 planned templates written |
+| **Forms** | ✅ Complete | 5 / 5 planned forms written |
+| **Customer Playbooks** | ✅ Complete | 7 / 7 planned playbooks written |
+| **CRM Guides** | ✅ Complete | 5 / 5 Zoho CRM guides written (Field Reference, Pipeline, Health Score Mapping, Reports & Dashboards, Data Hygiene & Permissions) |
 | **Training Videos** | 🔴 Not Started | No production started |
-| **Certification / Assessments** | 🟡 Framework Only | VCCSP structure defined, no implemented assessment yet |
+| **Certification / Assessments** | 🟡 Framework + Quiz Ready | VCCSP structure defined; 12-question knowledge quiz + 2 practical case-study questions built in Moodle GIFT format, ready to import. Not yet imported/tested in Moodle. |
 | **Reporting / Executive Dashboards** | 🟡 Content Only | Module 18 covers the concepts; no dashboard artifact built yet |
 | Assets (Logos, Icons, Certificates, Screenshots) | 🔴 Not Started | Folders exist, empty |
 

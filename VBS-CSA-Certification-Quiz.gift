@@ -1,0 +1,104 @@
+// VBS Customer Success Academy — VCCSP Certification Quiz
+// Moodle import format: GIFT
+// To import: Moodle course > Question bank > Import > select "GIFT format" > upload this file
+// Passing score: 80% (per Module 20 - Final Assessment & Certification)
+
+$CATEGORY: VBS CSA / Section 1 - Customer Success Fundamentals
+
+::Q1 - Primary Goal of CS::What is the primary goal of Customer Success? {
+=Ensure customers achieve desired outcomes and receive value.
+~Resolve only customer complaints.
+~Increase internal meetings.
+~Manage only invoices.
+}
+
+::Q2 - Purpose of Health Score::What is the purpose of a Customer Health Score? {
+=Identify customer status, risks, and opportunities.
+~Measure employee performance.
+~Track marketing campaigns.
+~Replace customer conversations.
+}
+
+::Q3 - CS vs Support::What best distinguishes Customer Success from Customer Support? {
+=Customer Success is proactive and outcome-focused; Support is typically reactive and issue-focused.
+~Customer Success only handles billing questions.
+~Customer Success and Customer Support are the same function.
+~Customer Success has no contact with customers.
+}
+
+$CATEGORY: VBS CSA / Section 2 - Customer Lifecycle Management
+
+::Q4 - Renewal Timing::When should a CSM start renewal conversations? {
+=Throughout the customer lifecycle.
+~Only after the contract expires.
+~Near the final day.
+~Only when sales asks.
+}
+
+::Q5 - Purpose of a Playbook::What is the purpose of a customer playbook? {
+=Provide guidance for repeatable customer situations.
+~Store invoices.
+~Replace CRM.
+~Track attendance.
+}
+
+::Q6 - Renewal Readiness Trigger::Per the Renewal Management SOP, how many days before the renewal date should readiness assessment begin? {
+=120 days
+~10 days
+~365 days
+~It should not begin until the contract expires
+}
+
+$CATEGORY: VBS CSA / Section 3 - Customer Operations
+
+::Q7 - Why SOPs Matter::Why are SOPs important? {
+=They create consistent execution.
+~They eliminate customer interaction.
+~They replace CSM judgment.
+~They are only for new employees.
+}
+
+::Q8 - Escalation First Step::Per the Escalation Management SOP, what is the required response time to acknowledge a customer escalation? {
+=Within 2 business hours.
+~Within 2 business days.
+~Only after the issue is resolved.
+~There is no defined response time.
+}
+
+::Q9 - Health Score RAG Thresholds::Using the VBS Health Scorecard RAG framework, a total score of 20 out of 35 classifies the account as: {
+=🟡 Yellow — At Risk
+~🟢 Green — Healthy
+~🔴 Red — Critical
+~The account cannot be classified without additional data
+}
+
+$CATEGORY: VBS CSA / Section 4 - Strategic Skills & Growth
+
+::Q10 - Upsell Precondition::Before raising an upsell opportunity with a customer, what must be confirmed first? {
+=The account's health status is 🟢 Green.
+~The customer's contract is about to expire.
+~The CSM's quota for the quarter.
+~That the customer has never made a complaint.
+}
+
+::Q11 - Renewal vs Upsell Playbook::A customer's contract is expiring in 90 days and health is 🟡 Yellow. What is the correct first action? {
+=Activate the At-Risk Customer Playbook before proceeding with renewal conversations.
+~Immediately send the Renewal Discussion email.
+~Introduce an upsell opportunity to strengthen the relationship.
+~Wait until the health status changes on its own.
+}
+
+$CATEGORY: VBS CSA / Section 5 - AI & Modern CSM Skills
+
+::Q12 - AI-Generated Content::What is the correct approach to AI-generated content? {
+=Always verify and apply human judgment.
+~Send immediately without review.
+~Let AI make customer decisions.
+~Avoid reviewing outputs.
+}
+
+$CATEGORY: VBS CSA / Practical Assessment (Manually Graded)
+
+::Practical Case Study - Architecture Firm Account Recovery::[html]<p><strong>Scenario:</strong> You are the CSM for a customer who has worked with VBS for 8 months on BIM modeling services. You observe: reduced project activity, no new project request in 45 days, a missed scheduled review meeting, delayed feedback on a prior delivery, and an overdue invoice payment.</p><p><strong>Complete the following:</strong></p><ol><li>Assess current health status (🟢/🟡/🔴) and explain your reasoning.</li><li>Identify relationship, delivery, financial, and retention risks.</li><li>Create a prioritized action plan with owners and timelines.</li><li>Draft a professional outreach email to the customer.</li><li>Write the CRM note you would log for this account.</li></ol><p><em>Evaluation weighting: Problem Analysis 25%, Customer Communication 25%, Action Planning 25%, CRM Documentation 25%. Passing requires demonstrating proactive risk identification and professional, non-sales-pressured communication.</em></p> {}
+
+::CSM Simulation Exercise - Delivery Timeline Complaint::[html]<p>A customer contacts you saying: <em>"We are not happy with the recent delivery timeline and are considering other options."</em></p><p>Describe your immediate response (how you would acknowledge the concern), your internal next steps, and how you would follow up with the customer.</p> {}

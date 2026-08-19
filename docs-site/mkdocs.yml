@@ -96,7 +96,12 @@ nav:
       - Overview: template-library-overview.md
       - 🎯 Customer Success Plan Template: template-library/customer-success-plan-template.md
       - 💚 Health Scorecard Template: template-library/health-scorecard-template.md
+      - 📅 Weekly Business Review Template: template-library/weekly-business-review-template.md
+      - 📊 Monthly Business Review Template: template-library/monthly-business-review-template.md
       - 📈 Quarterly Business Review Template: template-library/quarterly-business-review-template.md
+      - 🏢 Executive Summary Template: template-library/executive-summary-template.md
+      - 📝 Meeting Minutes Template: template-library/meeting-minutes-template.md
+      - ✅ Action Tracker Template: template-library/action-tracker-template.md
 
   - Customer Playbooks:
       - Overview: playbooks.md
@@ -104,6 +109,25 @@ nav:
       - 🚨 At-Risk Customer Playbook: playbooks/at-risk-customer-playbook.md
       - 🚨 Escalation Customer Playbook: playbooks/escalation-customer-playbook.md
       - 🔄 Renewal Customer Playbook: playbooks/renewal-customer-playbook.md
+      - 📈 Upsell Customer Playbook: playbooks/upsell-customer-playbook.md
+      - 🔀 Cross-sell Customer Playbook: playbooks/cross-sell-customer-playbook.md
+      - 🤝 Referral Customer Playbook: playbooks/referral-customer-playbook.md
+
+  - Forms:
+      - Overview: forms-overview.md
+      - 💬 Customer Feedback Form: forms/customer-feedback-form.md
+      - 💚 Health Assessment Form: forms/health-assessment-form.md
+      - 📝 Meeting Notes Form: forms/meeting-notes-form.md
+      - 🚨 Escalation Form: forms/escalation-form.md
+      - 🎯 Success Plan Form: forms/success-plan-form.md
+
+  - CRM Guides:
+      - Overview: crm-guides-overview.md
+      - 📊 Zoho CRM Field Reference Guide: crm-guides/zoho-crm-field-reference-guide.md
+      - 🔄 Zoho CRM Pipeline & Deal Stages Guide: crm-guides/zoho-crm-pipeline-deal-stages-guide.md
+      - 💚 Zoho CRM Health Score Field Mapping Guide: crm-guides/zoho-crm-health-score-field-mapping-guide.md
+      - 📈 Zoho CRM Reports & Dashboards Guide: crm-guides/zoho-crm-reports-dashboards-guide.md
+      - 🔐 Zoho CRM Data Hygiene & Permissions Guide: crm-guides/zoho-crm-data-hygiene-permissions-guide.md
 
   - Standards:
       - Overview: standards.md
