@@ -1,0 +1,18 @@
+.vccsp-assessment { margin: 1.5rem 0; }
+.vccsp-assessment input[type="text"] { width: 100%; max-width: 520px; padding: .75rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .35rem; }
+.vccsp-question { margin: 1rem 0; padding: 1rem 1.1rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .5rem; }
+.vccsp-option { display: flex; gap: .65rem; align-items: flex-start; margin: .65rem 0; cursor: pointer; }
+.vccsp-option input { margin-top: .25rem; }
+.vccsp-actions { display: flex; gap: .75rem; flex-wrap: wrap; margin: 1rem 0; }
+.vccsp-result { margin: 1.5rem 0; padding: 1rem 1.25rem; border-radius: .5rem; border-left: .35rem solid; }
+.vccsp-result.is-pass { border-color: #2e7d32; background: rgba(46,125,50,.08); }
+.vccsp-result.is-fail { border-color: #c62828; background: rgba(198,40,40,.08); }
+.vccsp-certificate-card { max-width: 850px; margin: 1.5rem auto; padding: 3rem; text-align: center; border: 8px double var(--md-primary-fg-color); background: var(--md-default-bg-color); box-shadow: 0 4px 18px rgba(0,0,0,.12); }
+.vccsp-certificate-kicker { letter-spacing: .15em; font-weight: 700; font-size: .8rem; }
+.vccsp-certificate-card h2 { font-size: 2rem; margin-bottom: .5rem; }
+.vccsp-recipient { font-size: 2rem; font-weight: 700; margin: 1.25rem 0; }
+.vccsp-certification-name { font-weight: 700; font-size: 1.15rem; margin: 1.5rem 0; }
+.vccsp-certificate-meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2rem 0; padding: 1rem 0; border-top: 1px solid var(--md-default-fg-color--lightest); border-bottom: 1px solid var(--md-default-fg-color--lightest); font-size: .85rem; }
+.vccsp-signature { margin-top: 2rem; font-weight: 700; }
+@media (max-width: 700px) { .vccsp-certificate-card { padding: 1.5rem; } .vccsp-certificate-meta { grid-template-columns: repeat(2, 1fr); } .vccsp-recipient { font-size: 1.5rem; } }
+@media print { body * { visibility: hidden !important; } .vccsp-certificate-card, .vccsp-certificate-card * { visibility: visible !important; } .vccsp-certificate-card { position: absolute; left: 0; top: 0; width: 100%; max-width: none; margin: 0; box-shadow: none; } }
