@@ -1,18 +1,240 @@
-.vccsp-assessment { margin: 1.5rem 0; }
-.vccsp-assessment input[type="text"] { width: 100%; max-width: 520px; padding: .75rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .35rem; }
-.vccsp-question { margin: 1rem 0; padding: 1rem 1.1rem; border: 1px solid var(--md-default-fg-color--lightest); border-radius: .5rem; }
-.vccsp-option { display: flex; gap: .65rem; align-items: flex-start; margin: .65rem 0; cursor: pointer; }
-.vccsp-option input { margin-top: .25rem; }
-.vccsp-actions { display: flex; gap: .75rem; flex-wrap: wrap; margin: 1rem 0; }
-.vccsp-result { margin: 1.5rem 0; padding: 1rem 1.25rem; border-radius: .5rem; border-left: .35rem solid; }
-.vccsp-result.is-pass { border-color: #2e7d32; background: rgba(46,125,50,.08); }
-.vccsp-result.is-fail { border-color: #c62828; background: rgba(198,40,40,.08); }
-.vccsp-certificate-card { max-width: 850px; margin: 1.5rem auto; padding: 3rem; text-align: center; border: 8px double var(--md-primary-fg-color); background: var(--md-default-bg-color); box-shadow: 0 4px 18px rgba(0,0,0,.12); }
-.vccsp-certificate-kicker { letter-spacing: .15em; font-weight: 700; font-size: .8rem; }
-.vccsp-certificate-card h2 { font-size: 2rem; margin-bottom: .5rem; }
-.vccsp-recipient { font-size: 2rem; font-weight: 700; margin: 1.25rem 0; }
-.vccsp-certification-name { font-weight: 700; font-size: 1.15rem; margin: 1.5rem 0; }
-.vccsp-certificate-meta { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2rem 0; padding: 1rem 0; border-top: 1px solid var(--md-default-fg-color--lightest); border-bottom: 1px solid var(--md-default-fg-color--lightest); font-size: .85rem; }
-.vccsp-signature { margin-top: 2rem; font-weight: 700; }
-@media (max-width: 700px) { .vccsp-certificate-card { padding: 1.5rem; } .vccsp-certificate-meta { grid-template-columns: repeat(2, 1fr); } .vccsp-recipient { font-size: 1.5rem; } }
-@media print { body * { visibility: hidden !important; } .vccsp-certificate-card, .vccsp-certificate-card * { visibility: visible !important; } .vccsp-certificate-card { position: absolute; left: 0; top: 0; width: 100%; max-width: none; margin: 0; box-shadow: none; } }
+.vccsp-assessment {
+  margin: 2rem 0;
+}
+
+.vccsp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.vccsp-question {
+  margin: 1.5rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+}
+
+.vccsp-question legend {
+  width: 100%;
+  padding-bottom: 0.75rem;
+}
+
+.vccsp-option {
+  display: block;
+  padding: 0.65rem;
+  margin: 0.35rem 0;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.vccsp-option:hover {
+  background: var(--md-default-fg-color--lightest);
+}
+
+.vccsp-option input {
+  margin-right: 0.5rem;
+}
+
+.vccsp-result {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.vccsp-pass {
+  border-left: 6px solid #2e7d32;
+}
+
+.vccsp-fail {
+  border-left: 6px solid #c62828;
+}
+
+.vccsp-score {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.vccsp-certificate-preview {
+  margin: 3rem auto;
+  max-width: 1100px;
+}
+
+.vccsp-certificate-border {
+  padding: 16px;
+  border: 2px solid #1b2a4a;
+  background: #f4f6f9;
+}
+
+.vccsp-certificate-inner {
+  padding: 70px 80px;
+  text-align: center;
+  border: 1px solid #e08a3c;
+  background: white;
+}
+
+.vccsp-certificate-badge {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #e08a3c;
+  font-size: 2rem;
+}
+
+.vccsp-certificate-org {
+  color: #5b6b82;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 0.85rem;
+}
+
+.vccsp-certificate-program {
+  margin-top: 0.5rem;
+  color: #1b2a4a;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.vccsp-certificate-inner h1 {
+  margin: 2rem 0;
+  color: #1b2a4a;
+  font-size: 2.5rem;
+}
+
+.vccsp-presented {
+  color: #5b6b82;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.vccsp-recipient {
+  margin: 1rem auto 2rem;
+  padding-bottom: 0.75rem;
+  max-width: 600px;
+  border-bottom: 1px solid #c7d0dd;
+  color: #e08a3c;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 2.8rem;
+}
+
+.vccsp-certificate-body {
+  max-width: 760px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.7;
+}
+
+.vccsp-certificate-details {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin: 2rem 0 3rem;
+}
+
+.vccsp-certificate-details div {
+  min-width: 150px;
+}
+
+.vccsp-certificate-details span {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: #8492a6;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+.vccsp-certificate-details strong {
+  color: #1b2a4a;
+}
+
+.vccsp-certificate-signatures {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  max-width: 750px;
+  margin: 3rem auto 0;
+}
+
+.vccsp-certificate-signatures > div {
+  flex: 1;
+}
+
+.vccsp-sign-line {
+  margin-bottom: 0.6rem;
+  border-top: 1px solid #1b2a4a;
+}
+
+.vccsp-certificate-signatures strong,
+.vccsp-certificate-signatures span {
+  display: block;
+}
+
+.vccsp-certificate-signatures span {
+  margin-top: 0.2rem;
+  color: #5b6b82;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 700px) {
+  .vccsp-certificate-inner {
+    padding: 40px 25px;
+  }
+
+  .vccsp-recipient {
+    font-size: 2rem;
+  }
+
+  .vccsp-certificate-details {
+    gap: 1.5rem;
+  }
+
+  .vccsp-certificate-signatures {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+
+  #vccsp-certificate,
+  #vccsp-certificate * {
+    visibility: visible !important;
+  }
+
+  #vccsp-certificate {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .vccsp-actions {
+    display: none !important;
+  }
+
+  .vccsp-certificate-preview {
+    margin: 0;
+    max-width: none;
+  }
+
+  .vccsp-certificate-inner {
+    padding: 60px;
+  }
+
+  @page {
+    size: landscape;
+    margin: 0;
+  }
+}
