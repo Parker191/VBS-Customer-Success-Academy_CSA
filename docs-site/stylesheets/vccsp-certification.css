@@ -1,0 +1,148 @@
+/* VCCSP Final Assessment */
+
+#vccsp-assessment,
+#vccsp-certificate {
+  margin: 2rem 0;
+}
+
+.vccsp-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  padding: 2rem;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 4px 18px rgba(27, 42, 74, 0.08);
+}
+
+.vccsp-card h2 {
+  margin-top: 0;
+}
+
+#vccsp-candidate-name {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0.5rem 0 2rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 6px;
+  font-size: 1rem;
+  background: var(--md-default-bg-color);
+}
+
+.vccsp-question {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+}
+
+.vccsp-question legend {
+  width: 100%;
+  padding: 0 0.5rem;
+}
+
+.vccsp-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.vccsp-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.8rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.vccsp-option:hover {
+  border-color: var(--md-primary-fg-color);
+  background: var(--md-code-bg-color);
+}
+
+.vccsp-option input {
+  margin-top: 0.25rem;
+}
+
+#vccsp-submit,
+#vccsp-generate-certificate,
+#vccsp-print-certificate {
+  border: 0;
+  border-radius: 7px;
+  padding: 0.8rem 1.25rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#vccsp-submit,
+#vccsp-generate-certificate,
+#vccsp-print-certificate {
+  background: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+#vccsp-submit:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.vccsp-result {
+  margin-top: 1.5rem;
+}
+
+.vccsp-success,
+.vccsp-failure,
+.vccsp-error {
+  padding: 1.25rem;
+  border-radius: 8px;
+}
+
+.vccsp-success {
+  border: 1px solid #2e7d32;
+  background: rgba(46, 125, 50, 0.08);
+}
+
+.vccsp-failure {
+  border: 1px solid #c62828;
+  background: rgba(198, 40, 40, 0.08);
+}
+
+.vccsp-error {
+  border: 1px solid #ef6c00;
+  background: rgba(239, 108, 0, 0.08);
+}
+
+.vccsp-certificate-preview {
+  margin-top: 2rem;
+}
+
+.vccsp-certificate-actions {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.vccsp-certificate-frame {
+  width: 100%;
+  min-height: 720px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  background: #f4f6f9;
+}
+
+@media screen and (max-width: 700px) {
+  .vccsp-card {
+    padding: 1rem;
+  }
+
+  .vccsp-question {
+    padding: 1rem;
+  }
+
+  .vccsp-certificate-frame {
+    min-height: 500px;
+  }
+}
