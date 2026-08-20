@@ -113,13 +113,13 @@ nav:
       - 🔀 Cross-sell Customer Playbook: playbooks/cross-sell-customer-playbook.md
       - 🤝 Referral Customer Playbook: playbooks/referral-customer-playbook.md
 
-  - Forms:
-      - Overview: forms-overview.md
-      - 💬 Customer Feedback Form: forms/customer-feedback-form.md
-      - 💚 Health Assessment Form: forms/health-assessment-form.md
-      - 📝 Meeting Notes Form: forms/meeting-notes-form.md
-      - 🚨 Escalation Form: forms/escalation-form.md
-      - 🎯 Success Plan Form: forms/success-plan-form.md
+  -- Forms:
+    - Overview: forms/forms-overview.md
+    - 💬 Customer Feedback Form: forms/customer-feedback-form.md
+    - 💚 Health Assessment Form: forms/health-assessment-form.md
+    - 📝 Meeting Notes Form: forms/meeting-notes-form.md
+    - 🚨 Escalation Form: forms/escalation-form.md
+    - 🎯 Success Plan Form: forms/success-plan-form.md
 
   - CRM Guides:
       - Overview: crm-guides-overview.md
