@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const submitButton = root.querySelector('#vccsp-submit');
   const nameInput = root.querySelector('#vccsp-name');
   const questionContainer = root.querySelector('#vccsp-questions');
+  const progress = root.querySelector('#vccsp-progress');
   const result = root.querySelector('#vccsp-result');
   const certificate = root.querySelector('#vccsp-certificate');
   const printButton = root.querySelector('#vccsp-print');
@@ -35,6 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
     { q: 'What best describes a professional Customer Success mindset?', options: ['Task completion only.', 'Customer-first ownership, business awareness, proactive risk management, and continuous improvement.', 'Selling as much as possible.', 'Avoiding difficult conversations.'], answer: 1 }
   ];
 
+  const PASS_MARK = 80;
   let selectedQuestions = [];
   let started = false;
 
@@ -42,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function shuffle(items) {
     const copy = [...items];
-    for (let i = copy.length - 1; i > 0; i--) {
+    for (let i = copy.length - 1; i > 0; i -= 1) {
       const j = Math.floor(Math.random() * (i + 1));
       [copy[i], copy[j]] = [copy[j], copy[i]];
     }
@@ -59,13 +61,31 @@ document.addEventListener('DOMContentLoaded', () => {
             <span>${escapeHtml(option)}</span>
           </label>`).join('')}
       </fieldset>`).join('');
+
+    if (progress) {
+      progress.hidden = false;
+      progress.textContent = `Assessment: 0/${selectedQuestions.length} questions answered`;
+    }
+
+    questionContainer.addEventListener('change', updateProgress, { once: true });
   }
 
-  function createCertificate(candidate, score, passed) {
+  function updateProgress() {
+    if (!progress) return;
+    const answered = selectedQuestions.reduce((count, _, index) => (
+      form.querySelector(`input[name="q${index}"]:checked`) ? count + 1 : count
+    ), 0);
+    progress.textContent = `Assessment: ${answered}/${selectedQuestions.length} questions answered`;
+    questionContainer.addEventListener('change', updateProgress, { once: true });
+  }
+
+  function createCertificate(candidate, score) {
     const date = new Date();
     const dateText = date.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
     const dateCode = date.toISOString().slice(0, 10).replace(/-/g, '');
-    const random = Math.random().toString(36).slice(2, 8).toUpperCase();
+    const random = (window.crypto && window.crypto.randomUUID)
+      ? window.crypto.randomUUID().replace(/-/g, '').slice(0, 8).toUpperCase()
+      : Math.random().toString(36).slice(2, 10).toUpperCase();
     const certificateId = `VCCSP-${dateCode}-${random}`;
 
     certificate.innerHTML = `
@@ -78,50 +98,70 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="vccsp-certification-name">VBS Certified Customer Success Professional (VCCSP)</div>
         <div class="vccsp-certificate-meta">
           <span><strong>Assessment Score</strong><br>${score}%</span>
-          <span><strong>Status</strong><br>${passed ? 'Certified' : 'Reassessment Required'}</span>
+          <span><strong>Knowledge Status</strong><br>Passed</span>
           <span><strong>Completion Date</strong><br>${dateText}</span>
           <span><strong>Certificate ID</strong><br>${certificateId}</span>
         </div>
+        <p class="vccsp-certificate-note">Knowledge assessment passed. Final VCCSP certification remains subject to completion and approval of the practical case study, CSM simulation, and process/documentation review.</p>
         <div class="vccsp-signature">Virtual Building Studio</div>
       </div>`;
+
+    certificate.hidden = false;
     return certificateId;
   }
 
   startButton.addEventListener('click', () => {
     const name = nameInput.value.trim();
-    if (!name) {
+    if (name.length < 2) {
+      nameInput.setCustomValidity('Please enter your full name.');
+      nameInput.reportValidity();
       nameInput.focus();
       return;
     }
+    nameInput.setCustomValidity('');
     selectedQuestions = shuffle(questions).slice(0, 20);
     renderQuestions();
     started = true;
     startButton.hidden = true;
     nameInput.disabled = true;
     submitButton.hidden = false;
+    resetButton.hidden = true;
     result.hidden = true;
     certificate.hidden = true;
+    certificate.innerHTML = '';
     window.scrollTo({ top: questionContainer.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
   });
 
   form.addEventListener('submit', (event) => {
     event.preventDefault();
     if (!started) return;
+
     const formData = new FormData(form);
     let correct = 0;
     selectedQuestions.forEach((item, index) => {
       if (Number(formData.get(`q${index}`)) === item.answer) correct += 1;
     });
+
     const score = Math.round((correct / selectedQuestions.length) * 100);
-    const passed = score >= 80;
+    const passed = score >= PASS_MARK;
     result.hidden = false;
     result.className = `vccsp-result ${passed ? 'is-pass' : 'is-fail'}`;
-    result.innerHTML = `<h3>${passed ? '🎉 Assessment Passed' : 'Assessment Not Passed'}</h3><p><strong>${score}%</strong> (${correct}/20 correct). ${passed ? 'You have met the 80% knowledge-assessment threshold.' : 'A score of 80% is required. Review the relevant modules and retake the assessment.'}</p>`;
-    certificate.hidden = false;
-    createCertificate(nameInput.value.trim(), score, passed);
+    result.innerHTML = passed
+      ? `<h3>🎉 Knowledge Assessment Passed</h3><p><strong>${score}%</strong> (${correct}/${selectedQuestions.length} correct). You have met the ${PASS_MARK}% knowledge-assessment threshold.</p>`
+      : `<h3>Assessment Not Passed</h3><p><strong>${score}%</strong> (${correct}/${selectedQuestions.length} correct). A score of ${PASS_MARK}% is required. Review the relevant modules and start a new attempt.</p>`;
+
+    // A certificate is intentionally generated only after a passing score.
+    if (passed) {
+      createCertificate(nameInput.value.trim(), score);
+      certificate.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      certificate.hidden = true;
+      certificate.innerHTML = '';
+    }
+
     submitButton.hidden = true;
     resetButton.hidden = false;
-    if (passed) certificate.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (progress) progress.textContent = `Assessment complete: ${score}% (${correct}/${selectedQuestions.length})`;
   });
 
   resetButton.addEventListener('click', () => {
@@ -129,12 +169,15 @@ document.addEventListener('DOMContentLoaded', () => {
     questionContainer.innerHTML = '';
     result.hidden = true;
     certificate.hidden = true;
+    certificate.innerHTML = '';
     nameInput.disabled = false;
     startButton.hidden = false;
     submitButton.hidden = true;
     resetButton.hidden = true;
+    if (progress) progress.hidden = true;
     started = false;
     selectedQuestions = [];
+    nameInput.focus();
     window.scrollTo({ top: root.getBoundingClientRect().top + window.scrollY - 80, behavior: 'smooth' });
   });
 
