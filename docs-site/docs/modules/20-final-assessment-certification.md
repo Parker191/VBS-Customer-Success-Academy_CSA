@@ -1,172 +1,116 @@
-# 🎓 VBS Customer Success Academy
-# 🏆 Module 20 – Final Assessment & Certification
+# 📝 Final Knowledge Assessment
 
-> **Module:** 20 – Final Assessment & Certification  
-> **Version:** 3.0  
-> **Estimated Duration:** 120 Minutes  
-> **Difficulty:** Advanced  
-> **Prerequisites:** Modules 01–19  
-> **Certification:** VBS Certified Customer Success Professional (VCCSP)  
-> **Last Updated:** August 2026
+## VCCSP Final Assessment
+
+This assessment contains **20 questions** covering Modules 01–19.
+
+### Assessment Rules
+
+- All 20 questions must be answered.
+- Minimum passing score: **80%**
+- You must enter your full name before submitting.
+- The assessment can be submitted only once per attempt.
+- The Submit Assessment button appears only after Question 20.
+- A certificate option is available only after achieving a score of 80% or higher.
+
+<div id="vccsp-assessment" class="vccsp-assessment">
+
+  <div class="vccsp-candidate">
+    <label for="vccsp-candidate-name">
+      <strong>Candidate Name</strong>
+    </label>
+
+    <input
+      type="text"
+      id="vccsp-candidate-name"
+      class="md-input"
+      placeholder="Enter your full name"
+      autocomplete="name"
+    />
+  </div>
+
+  <div class="vccsp-actions">
+
+    <button
+      type="button"
+      id="vccsp-start"
+      class="md-button md-button--primary"
+    >
+      🎯 Start Assessment
+    </button>
+
+  </div>
+
+  <div
+    id="vccsp-question-container"
+    class="vccsp-question-container"
+    hidden
+  ></div>
+
+  <div
+    id="vccsp-submit-area"
+    class="vccsp-submit-area"
+    hidden
+  ></div>
+
+  <div id="vccsp-result" class="vccsp-result"></div>
+
+  <section
+    id="vccsp-certificate"
+    class="vccsp-certificate"
+    hidden
+  >
+
+    <h2>🏆 VCCSP Certificate</h2>
+
+    <div id="vccsp-certificate-summary"></div>
+
+    <button
+      type="button"
+      id="vccsp-generate-certificate"
+      class="md-button md-button--primary"
+    >
+      🎓 Generate Certificate
+    </button>
+
+    <div
+      id="vccsp-certificate-preview"
+      hidden
+    ></div>
+
+  </section>
+
+</div>
 
 ---
 
-## 📍 Academy Progress
+## Assessment Score
 
-**Module 20 of 20 — 100% Complete**
-
-Congratulations on reaching the final module of the VBS Customer Success Academy.
-
-You have completed the learning journey across:
-
-- Customer onboarding
-- Customer engagement
-- Customer health management
-- Retention
-- Growth
-- Escalations
-- Reporting
-- AI-powered workflows
-- Customer Success operations
-
-This final module validates your knowledge and provides the structured pathway toward VCCSP certification.
+**Minimum Passing Score: 80%**
 
 ---
 
-# 🎓 VCCSP Certification
+## Assessment Questions
 
-The **VBS Certified Customer Success Professional (VCCSP)** certification validates that a learner can apply Customer Success principles, manage customer lifecycle activities, identify risks, communicate professionally, use data and processes effectively, and demonstrate proactive customer ownership.
+The interactive assessment above contains 20 questions covering:
 
----
-
-## Certification Components
-
-| Assessment Area | Weight |
-|---|---:|
-| Knowledge Assessment | 30% |
-| Practical Case Study | 40% |
-| CSM Simulation Exercise | 20% |
-| Process & Documentation Review | 10% |
-
-### Important
-
-The interactive knowledge assessment is the **knowledge component** of the certification process.
-
-The practical case study, CSM simulation, and process/documentation review remain evaluator-led activities.
-
-> **Passing the browser-based assessment alone does not constitute final VCCSP certification.**
-
----
-
-# 📝 Interactive Knowledge Assessment
-
-The knowledge assessment contains **20 questions** selected and randomized in the browser.
-
-A minimum score of **80%** is required to pass the knowledge component.
-
-## Before You Start
-
-Enter your full name and select **Start Assessment**.
-
-The questions will then appear below.
-
-Answer all 20 questions before selecting **Submit Assessment**.
-
-The **Submit Assessment** button appears at the bottom of the assessment after the questions have loaded.
-
-<div class="vccsp-assessment" data-vccsp-assessment>
-
-<form id="vccsp-assessment-form">
-
-<label for="vccsp-name"><strong>Candidate Name</strong></label>
-
-<p>
-<input
-  id="vccsp-name"
-  type="text"
-  autocomplete="name"
-  placeholder="Enter your full name"
-  required
->
-</p>
-
-<div class="admonition note">
-<p class="admonition-title">Before You Start</p>
-
-<p>
-Enter your name, select <strong>Start Assessment</strong>, answer all 20 questions,
-and then submit your assessment. The question order is randomized for each attempt.
-</p>
-
-</div>
-
-<div class="vccsp-actions">
-
-<button
-  type="button"
-  id="vccsp-start"
-  class="md-button md-button--primary"
->
-🎯 Start Assessment
-</button>
-
-</div>
-
-<div id="vccsp-questions"></div>
-
-<div
-  id="vccsp-submit-area"
-  class="vccsp-actions"
-  hidden
->
-
-<button
-  type="submit"
-  id="vccsp-submit"
-  class="md-button md-button--primary"
->
-✅ Submit Assessment
-</button>
-
-<button
-  type="button"
-  id="vccsp-reset"
-  class="md-button"
-  hidden
->
-🔄 Start New Attempt
-</button>
-
-</div>
-
-</form>
-
-<div
-  id="vccsp-result"
-  class="vccsp-result"
-  hidden
-></div>
-
-<div
-  id="vccsp-certificate"
-  hidden
->
-
-<div class="vccsp-actions">
-
-<button
-  type="button"
-  id="vccsp-print"
-  class="md-button md-button--primary"
->
-🖨️ Print / Save Certificate
-</button>
-
-</div>
-
-</div>
-
-</div>
+- Customer Success fundamentals.
+- Customer health.
+- Customer lifecycle management.
+- Customer onboarding.
+- Adoption.
+- QBRs.
+- CRM documentation.
+- Escalation management.
+- Proactive Customer Success.
+- Retention.
+- Delivery performance.
+- Data-driven Customer Success.
+- AI usage.
+- Recovery planning.
+- Expansion.
+- Invoice management.
+- Customer value.
 
 ---
 
@@ -174,99 +118,72 @@ and then submit your assessment. The question order is randomized for each attem
 
 ## Customer Scenario: Architecture Firm Account Recovery
 
-You are the Customer Success Manager for a VBS customer that has worked with VBS for eight months for BIM modeling services.
+### Background
 
-The customer has recently shown several risk signals:
+You are the Customer Success Manager for a VBS customer.
 
-- Project activity has reduced.
-- No new project request has been received for 45 days.
-- The customer missed the last scheduled review meeting.
-- A previous delivery received delayed feedback.
-- An invoice is overdue.
+The customer has been working with VBS for 8 months for BIM modeling services.
 
----
+### Customer Situation
 
-## Your Assignment
+Recently, you observe:
+
+- Customer project activity has reduced.
+- No new project request received for 45 days.
+- Customer has not attended the last scheduled review meeting.
+- One previous delivery received delayed feedback.
+- Invoice payment is pending beyond the due date.
+
+### Your Role
+
+As the CSM, analyze the situation and create a recovery plan.
 
 ### Task 1 — Customer Health Assessment
 
-Select the appropriate health status:
+Evaluate:
 
-- 🟢 Healthy
-- 🟡 Needs Attention
-- 🔴 At Risk
+🟢 Healthy  
+🟡 Needs Attention  
+🔴 At Risk
 
-Explain your decision using observable customer signals.
-
----
+Explain your decision.
 
 ### Task 2 — Identify Risks
 
-Document:
+Identify:
 
-- Relationship risks
-- Delivery risks
-- Financial risks
-- Retention risks
+- Relationship risks.
+- Delivery risks.
+- Financial risks.
+- Retention risks.
 
----
-
-### Task 3 — Create an Action Plan
+### Task 3 — Create Action Plan
 
 | Action | Owner | Timeline |
-|---|---|---|
+|--------|-------|----------|
 | Customer discussion | CSM | Within 1 week |
 | Delivery review | Delivery Team | Within 3 days |
 | Payment follow-up | Finance + CSM | Immediate |
 | Recovery plan | CSM | Within 2 weeks |
 
----
-
 ### Task 4 — Customer Communication
 
-Draft a professional customer email that:
+Draft a professional email that:
 
 - Acknowledges the relationship.
 - Requests a discussion.
-- Demonstrates willingness to support.
+- Shows willingness to support.
 - Avoids sounding like a sales follow-up.
-
----
 
 ### Task 5 — CRM Update
 
-Create a CRM note covering:
+Create a CRM note including:
 
-- Situation summary
-- Customer sentiment
-- Risks
-- Actions planned
-- Owners
-- Follow-up date
-
----
-
-## Evaluation Criteria
-
-| Area | Weight |
-|---|---:|
-| Problem Analysis | 25% |
-| Customer Communication | 25% |
-| Action Planning | 25% |
-| CRM Documentation | 25% |
-
----
-
-## Expected Outcome
-
-A successful CSM should:
-
-- Identify risks early.
-- Take proactive action.
-- Coordinate internally.
-- Communicate professionally.
-- Protect the customer relationship.
-- Establish measurable follow-up actions.
+- Situation summary.
+- Customer sentiment.
+- Risks.
+- Actions planned.
+- Follow-up date.
 
 ---
 
@@ -274,379 +191,69 @@ A successful CSM should:
 
 ## Scenario
 
-A customer tells you:
+A customer contacts you saying:
 
 > "We are not happy with the recent delivery timeline and are considering other options."
 
-Demonstrate how you would respond.
+### Your Response Should Include
+
+1. Immediate Response
+2. Investigation
+3. Internal Coordination
+4. Recovery Plan
+5. Follow-up
 
 ---
 
-## Step 1 — Immediate Response
+# 📋 Certification Checklist
 
-Acknowledge the customer's concern with:
-
-- Empathy
-- Ownership
-- Professional communication
-- Clear commitment to investigate
-
----
-
-## Step 2 — Investigation
-
-Identify the information you need:
-
-- Project details
-- Agreed delivery timeline
-- Customer expectations
-- Actual delivery performance
-- Internal constraints
-- Previous communication
-- Current project status
-
----
-
-## Step 3 — Internal Coordination
-
-Explain who you would involve:
-
-- Delivery Manager
-- Project Team
-- Leadership
-- Sales/KAM, when appropriate
-- Finance, if commercial issues are involved
-
----
-
-## Step 4 — Recovery Plan
-
-Create:
-
-- Immediate actions
-- Owners
-- Timeline
-- Customer communication plan
-- Prevention steps
-- Follow-up checkpoints
-
----
-
-## Step 5 — Follow-up
-
-Explain how you would:
-
-- Confirm resolution.
-- Validate customer satisfaction.
-- Document the outcome.
-- Monitor the account.
-- Prevent recurrence.
-
----
-
-## Evaluation Criteria
-
-A strong CSM demonstrates:
-
-- Empathy
-- Ownership
-- Clear communication
-- Structured problem solving
-- Business awareness
-- Proactive follow-through
-
----
-
-# 📋 Process & Documentation Review
-
-The evaluator should verify that the candidate can:
-
-- Maintain accurate CRM records.
-- Follow applicable VBS SOPs.
-- Use customer health and risk frameworks.
-- Document meetings and actions.
-- Create clear customer reports.
-- Coordinate cross-functional actions.
-- Maintain professional customer communication.
-- Track customer commitments.
-- Maintain appropriate follow-up cadence.
-- Escalate risks using established processes.
-
----
-
-# ✅ Certification Readiness Checklist
-
-## Learning Completion
-
-- [ ] Modules 01–19 completed.
+- [ ] Modules 01–20 completed.
 - [ ] Academy resources reviewed.
-- [ ] Module 20 knowledge assessment completed.
+- [ ] Knowledge assessment completed.
 - [ ] Practical case study completed.
 - [ ] CSM simulation completed.
-- [ ] Process and documentation review completed.
+- [ ] Process/documentation review completed.
 
 ---
 
-## Practical Skills
+# 🏆 Certification Decision
 
-- [ ] Can manage customer onboarding.
-- [ ] Can conduct customer meetings.
-- [ ] Can maintain CRM records.
-- [ ] Can analyze customer health.
-- [ ] Can manage escalations.
-- [ ] Can support renewals.
-- [ ] Can identify growth opportunities.
-- [ ] Can create customer action plans.
-
----
-
-## Operational Skills
-
-- [ ] Understands SOP usage.
-- [ ] Can create customer reports.
-- [ ] Can use templates.
-- [ ] Can document customer interactions.
-- [ ] Can coordinate cross-functional activities.
-- [ ] Can track customer commitments.
-
----
-
-## Professional Standards
-
-- [ ] Customer-first thinking.
-- [ ] Ownership mindset.
-- [ ] Problem-solving ability.
-- [ ] Business understanding.
-- [ ] Cross-functional collaboration.
-- [ ] Continuous improvement mindset.
-- [ ] Professional communication.
-
----
-
-# 🏆 Graduation Criteria
-
-A learner is eligible for VCCSP certification after completing the full certification process and meeting the required standards.
-
----
-
-## 1. Academy Completion
-
-The learner must complete:
-
-- All 20 training modules
-- Required exercises
-- Knowledge assessments
-- Practical assignments
-
----
-
-## 2. Knowledge Demonstration
-
-The learner must demonstrate understanding of:
-
-- Customer Success fundamentals.
-- Customer lifecycle management.
-- Customer engagement.
-- Customer health management.
-- Retention strategies.
-- Growth opportunities.
-- Reporting.
-- Operational processes.
-- Customer communication.
-- Escalation management.
-
----
-
-## 3. Practical Application
-
-The learner must demonstrate the ability to:
-
-- Manage customer situations.
-- Communicate professionally.
-- Identify risks.
-- Create action plans.
-- Use Customer Success frameworks.
-- Coordinate internal teams.
-- Document customer activity.
-- Drive measurable follow-up.
-
----
-
-## 4. Professional Standards
-
-The learner should demonstrate:
-
-- Ownership mindset.
-- Customer-first thinking.
-- Collaboration.
-- Accountability.
-- Continuous improvement.
-- Business awareness.
-- Professional judgment.
-
----
-
-# 📊 Knowledge Assessment Results
-
-| Score | Knowledge Result |
-|---|---|
-| 90–100% | Excellent — Knowledge requirement passed |
-| 80–89% | Passed — Additional coaching may be recommended |
+| Result | Outcome |
+|--------|---------|
+| 90–100% | Certified Customer Success Professional |
+| 80–89% | Certified - Additional Coaching Recommended |
 | Below 80% | Reassessment Required |
 
 ---
 
-# 🏆 Final Certification Decision
+# 🌱 Continuous Learning Plan
 
-The final certification decision considers **all four certification components**.
+Customer Success is an evolving profession.
 
-| Result | Outcome |
-|---|---|
-| All requirements met | 🏆 VCCSP Certified |
-| Knowledge passed, practical requirements incomplete | ⏳ Certification Pending |
-| Knowledge assessment below 80% | 🔄 Reassessment Required |
+Certified CSMs should continue improving:
 
----
-
-> 🌟 **Certification Principle**
->
-> A certified CSM does not just manage tasks.
->
-> A certified CSM creates customer value.
+- Communication.
+- Data analysis.
+- Business understanding.
+- Negotiation.
+- Leadership.
+- AI productivity.
+- CRM and automation.
+- Customer relationship management.
 
 ---
 
-# 📜 Digital Certificate
+# 🎓 Academy Completion
 
-When the interactive knowledge assessment is passed, the page generates a professional digital certificate containing:
+Congratulations on reaching the final stage of the:
 
-- Candidate name
-- Assessment score
-- Certification status
-- Completion date
-- Unique VCCSP certificate ID
-- Virtual Building Studio certification title
+# VBS Customer Success Academy
 
-The certificate can be printed or saved as a PDF using:
-
-**🖨️ Print / Save Certificate**
+> "Customer Success is not about managing accounts.  
+> It is about helping customers achieve meaningful outcomes."
 
 ---
 
-## Certificate Integrity
+# 🚀 Welcome to Professional Customer Success
 
-> **Important:** The browser-generated certificate confirms successful completion of the browser-based knowledge assessment.
->
-> Final VCCSP certification remains subject to completion and approval of the practical case study, CSM simulation, and process/documentation review.
-
----
-
-# 📜 Certificate Information
-
-The digital certificate should identify:
-
-**Certification**
-
-VBS Certified Customer Success Professional (VCCSP)
-
-**Organization**
-
-Virtual Building Studio
-
-**Program**
-
-VBS Customer Success Academy
-
-**Assessment**
-
-Final Knowledge Assessment
-
-**Minimum Passing Score**
-
-80%
-
----
-
-# 🌱 Continuous Learning
-
-Certification is not the end of learning.
-
-Certified CSMs should continue improving their skills through:
-
-- Customer feedback review
-- Customer outcome analysis
-- SOP and process improvement
-- Communication development
-- Negotiation development
-- Data and reporting skills
-- Business and industry knowledge
-- Responsible AI adoption
-- Automation and productivity improvement
-
----
-
-# 📈 Monthly Development Activities
-
-## Customer Knowledge
-
-- Review customer feedback.
-- Understand customer goals.
-- Learn industry trends.
-- Review customer health.
-- Identify recurring customer needs.
-
----
-
-## Process Improvement
-
-- Review SOP effectiveness.
-- Suggest improvements.
-- Update documentation.
-- Identify process gaps.
-- Improve repeatable workflows.
-
----
-
-## Skill Development
-
-Continue improving:
-
-- Communication
-- Data analysis
-- Business understanding
-- Negotiation
-- Presentation skills
-- Leadership skills
-- Strategic thinking
-
----
-
-## AI & Technology
-
-Stay updated on:
-
-- AI productivity tools
-- CRM improvements
-- Automation opportunities
-- Reporting technologies
-- Responsible AI usage
-- Workflow optimization
-
----
-
-# 🔄 Continuous Improvement Cycle
-
-```text
-Learn
-  │
-  ▼
-Apply
-  │
-  ▼
-Measure
-  │
-  ▼
-Improve
-  │
-  ▼
-Repeat
+You are now ready to create impact as a Customer Success professional.
