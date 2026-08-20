@@ -113,7 +113,7 @@ nav:
       - 🔀 Cross-sell Customer Playbook: playbooks/cross-sell-customer-playbook.md
       - 🤝 Referral Customer Playbook: playbooks/referral-customer-playbook.md
 
-  -- Forms:
+   - Forms:
     - Overview: forms/forms-overview.md
     - 💬 Customer Feedback Form: forms/customer-feedback-form.md
     - 💚 Health Assessment Form: forms/health-assessment-form.md
