@@ -4,7 +4,6 @@ site_author: Parker
 
 theme:
   name: material
-
   features:
     - navigation.tabs
     - navigation.sections
@@ -14,9 +13,14 @@ theme:
     - search.share
     - content.code.copy
 
+extra_css:
+  - stylesheets/vccsp-certification.css
+
+extra_javascript:
+  - javascripts/vccsp-certification.js
+
 nav:
   - Home: index.md
-
   - Knowledge Hub:
       - Overview: knowledge-hub.md
       - Customer Lifecycle: lifecycle.md
@@ -24,7 +28,6 @@ nav:
       - Communication: communication.md
       - Operations: operations.md
       - Revenue: revenue.md
-
   - Academy Modules:
       - Overview: modules.md
       - 01 - About VBS: modules/01-about-vbs.md
@@ -47,7 +50,6 @@ nav:
       - 18 - Reporting & Executive Dashboards: modules/18-reporting-executive-dashboards.md
       - 19 - Customer Success Playbooks & SOPs: modules/19-customer-success-playbooks-sops.md
       - 20 - Final Assessment & Certification: modules/20-final-assessment-certification.md
-
   - SOP Library:
       - Overview: sops.md
       - 📊 Business Reviews: sops/business-reviews.md
@@ -65,7 +67,6 @@ nav:
       - 🧩 Project Coordination: sops/project-coordination.md
       - 🔄 Renewal Management: sops/renewal-management.md
       - 📊 Reporting & Dashboard Management: sops/reporting-dashboard-management.md
-
   - Email Templates:
       - Overview: emails.md
       - 📧 Welcome Email Template: emails/01-welcome-email.md
@@ -78,7 +79,6 @@ nav:
       - 🔄 Renewal Discussion Email: emails/08-renewal-discussion.md
       - 📈 Upsell & Cross-sell Opportunity Email: emails/09-upsell-cross-sell.md
       - 🙏 Thank You Email: emails/10-thank-you-email.md
-
   - Meeting Templates:
       - Overview: meetings.md
       - 🚀 Kickoff Meeting Template: meetings/01-kickoff-meeting.md
@@ -91,7 +91,6 @@ nav:
       - 💬 Customer Feedback Meeting: meetings/08-customer-feedback-meeting.md
       - 🏢 Executive Business Review (EBR): meetings/09-executive-business-review-ebr.md
       - 🎯 Project Closure Meeting: meetings/10-project-closure-meeting.md
-
   - Templates:
       - Overview: template-library-overview.md
       - 🎯 Customer Success Plan Template: template-library/customer-success-plan-template.md
@@ -102,7 +101,6 @@ nav:
       - 🏢 Executive Summary Template: template-library/executive-summary-template.md
       - 📝 Meeting Minutes Template: template-library/meeting-minutes-template.md
       - ✅ Action Tracker Template: template-library/action-tracker-template.md
-
   - Customer Playbooks:
       - Overview: playbooks.md
       - 🌱 New Customer Playbook: playbooks/new-customer-playbook.md
@@ -112,8 +110,6 @@ nav:
       - 📈 Upsell Customer Playbook: playbooks/upsell-customer-playbook.md
       - 🔀 Cross-sell Customer Playbook: playbooks/cross-sell-customer-playbook.md
       - 🤝 Referral Customer Playbook: playbooks/referral-customer-playbook.md
-
-
   - Forms:
       - Overview: forms/forms-overview.md
       - 💬 Customer Feedback Form: forms/customer-feedback-form.md
@@ -121,7 +117,6 @@ nav:
       - 📝 Meeting Notes Form: forms/meeting-notes-form.md
       - 🚨 Escalation Form: forms/escalation-form.md
       - 🎯 Success Plan Form: forms/success-plan-form.md
-
   - CRM Guides:
       - Overview: crm-guides-overview.md
       - 📊 Zoho CRM Field Reference Guide: crm-guides/zoho-crm-field-reference-guide.md
@@ -129,7 +124,6 @@ nav:
       - 💚 Zoho CRM Health Score Field Mapping Guide: crm-guides/zoho-crm-health-score-field-mapping-guide.md
       - 📈 Zoho CRM Reports & Dashboards Guide: crm-guides/zoho-crm-reports-dashboards-guide.md
       - 🔐 Zoho CRM Data Hygiene & Permissions Guide: crm-guides/zoho-crm-data-hygiene-permissions-guide.md
-
   - Standards:
       - Overview: standards.md
       - 📘 Documentation Style Guide: standards/documentation-style-guide.md
@@ -141,7 +135,6 @@ nav:
       - ✅ Repository Audit Checklist: standards/repository-audit-checklist.md
       - 🔖 Versioning Policy: standards/versioning-policy.md
       - 📊 Repository Scorecard: Repository Scorecard.md
-
   - Roadmap: roadmap.md
 
 markdown_extensions:
