@@ -2,10 +2,14 @@
 
 Structured intake forms used throughout the Customer Success process. Click any form below to open the full content.
 
-- [Customer Feedback Form](forms/customer-feedback-form.md)
-- [Health Assessment Form](forms/health-assessment-form.md)
-- [Meeting Notes Form](forms/meeting-notes-form.md)
-- [Escalation Form](forms/escalation-form.md)
-- [Success Plan Form](forms/success-plan-form.md)
+[Customer Feedback Form](customer-feedback-form.md)
+
+[Health Assessment Form](health-assessment-form.md)
+
+[Meeting Notes Form](meeting-notes-form.md)
+
+[Escalation Form](escalation-form.md)
+
+[Success Plan Form](success-plan-form.md)
 
 **Status:** 5 / 5 forms complete.
