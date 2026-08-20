@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>VBS Customer Success Academy — Portfolio Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #1B2A4A;
+    --navy-dark: #12203A;
+    --amber: #E08A3C;
+    --bg: #F4F6F9;
+    --white: #FFFFFF;
+    --text: #1F2937;
+    --muted: #5B6B82;
+    --border: #E2E6EC;
+    --green: #2F9E58;
+    --green-bg: #E8F5EC;
+    --yellow: #C98A1F;
+    --yellow-bg: #FBF1DD;
+    --red: #C0392B;
+    --red-bg: #FBEAE8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 0 0 3rem 0;
+  }
+  .display { font-family: 'Space Grotesk', sans-serif; }
+
+  header {
+    background: var(--navy);
+    color: var(--white);
+    padding: 1.75rem 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  header .brand-eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--amber);
+    font-weight: 600;
+    margin-bottom: 0.35rem;
+  }
+  header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.65rem;
+    font-weight: 600;
+  }
+  header .meta {
+    text-align: right;
+    font-size: 0.82rem;
+    color: #AEBBD1;
+    line-height: 1.5;
+  }
+  header .meta strong { color: var(--white); }
+
+  main {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 2rem 2.5rem 0 2.5rem;
+  }
+
+  /* KPI row */
+  .kpi-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .kpi-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.1rem 1.2rem;
+  }
+  .kpi-card .label {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .kpi-card .value {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1;
+  }
+  .kpi-card .sub {
+    font-size: 0.76rem;
+    color: var(--muted);
+    margin-top: 0.4rem;
+  }
+  .kpi-card.accent .value { color: var(--amber); }
+
+  /* Section shell */
+  section {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+  }
+  .section-head {
+    padding: 1.1rem 1.4rem;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .section-head h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--navy);
+  }
+  .section-head .tag {
+    font-size: 0.72rem;
+    color: var(--muted);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    padding: 0.25rem 0.6rem;
+    border-radius: 999px;
+  }
+  .section-body { padding: 1.4rem; }
+
+  /* Health overview: donut + breakdown */
+  .health-grid {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+  .donut-wrap { position: relative; width: 200px; height: 200px; margin: 0 auto; }
+  .donut-center {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+  }
+  .donut-center .num {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2rem; font-weight: 700; color: var(--navy);
+  }
+  .donut-center .lbl {
+    font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em;
+  }
+
+  .legend { display: flex; flex-direction: column; gap: 0.9rem; }
+  .legend-row { display: flex; align-items: center; gap: 0.7rem; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+  .legend-row .lbl { font-weight: 600; font-size: 0.88rem; flex: 1; }
+  .legend-row .cnt { font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: var(--navy); }
+  .legend-row .pct { font-size: 0.78rem; color: var(--muted); width: 3.5rem; text-align: right; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; font-size: 0.86rem; }
+  thead th {
+    text-align: left;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    font-weight: 600;
+    padding: 0.6rem 0.8rem;
+    border-bottom: 1.5px solid var(--border);
+  }
+  tbody td {
+    padding: 0.75rem 0.8rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--bg); }
+  .status-pill {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    font-size: 0.78rem; font-weight: 600;
+    padding: 0.25rem 0.65rem; border-radius: 999px;
+    white-space: nowrap;
+  }
+  .status-pill .dot { width: 7px; height: 7px; border-radius: 50%; }
+  .status-green { background: var(--green-bg); color: var(--green); }
+  .status-green .dot { background: var(--green); }
+  .status-yellow { background: var(--yellow-bg); color: var(--yellow); }
+  .status-yellow .dot { background: var(--yellow); }
+  .status-red { background: var(--red-bg); color: var(--red); }
+  .status-red .dot { background: var(--red); }
+  .muted-cell { color: var(--muted); }
+
+  /* Two column layout for revenue + activity */
+  .two-col { display: grid; grid-template-columns: 1.3fr 1fr; gap: 1.5rem; }
+
+  .activity-list { display: flex; flex-direction: column; gap: 0.9rem; }
+  .activity-item {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0.7rem 0.9rem;
+    background: var(--bg);
+    border-radius: 8px;
+  }
+  .activity-item .name { font-size: 0.85rem; font-weight: 500; }
+  .activity-item .metric { font-family: 'Space Grotesk', sans-serif; font-weight: 700; color: var(--navy); font-size: 0.95rem; }
+
+  footer {
+    max-width: 1180px;
+    margin: 1.5rem auto 0 auto;
+    padding: 0 2.5rem;
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  footer strong { color: var(--text); }
+
+  @media (max-width: 900px) {
+    .kpi-row { grid-template-columns: repeat(2, 1fr); }
+    .health-grid { grid-template-columns: 1fr; }
+    .two-col { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <div class="brand-eyebrow">VBS Customer Success Academy</div>
+    <h1>Portfolio Dashboard — Manager View</h1>
+  </div>
+  <div class="meta">
+    Data as of <strong>Aug 21, 2026</strong><br>
+    Portfolio: <strong>All CSMs</strong> · Sample data for illustration
+  </div>
+</header>
+
+<main>
+
+  <!-- KPI SUMMARY ROW -->
+  <div class="kpi-row">
+    <div class="kpi-card">
+      <div class="label">Total Accounts</div>
+      <div class="value">10</div>
+      <div class="sub">Active portfolio</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Total ACV</div>
+      <div class="value">$1.84M</div>
+      <div class="sub">Annual contract value</div>
+    </div>
+    <div class="kpi-card accent">
+      <div class="label">Renewals Due (90d)</div>
+      <div class="value">3</div>
+      <div class="sub">$410K at stake</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Open Escalations</div>
+      <div class="value">2</div>
+      <div class="sub">1 Critical, 1 High</div>
+    </div>
+    <div class="kpi-card">
+      <div class="label">Avg. Health Score</div>
+      <div class="value">76</div>
+      <div class="sub">/ 100 · trailing 30 days</div>
+    </div>
+  </div>
+
+  <!-- HEALTH OVERVIEW -->
+  <section>
+    <div class="section-head">
+      <h2>Customer Health Overview</h2>
+      <div class="tag">RAG Framework · Module 11</div>
+    </div>
+    <div class="section-body">
+      <div class="health-grid">
+        <div class="donut-wrap">
+          <svg width="200" height="200" viewBox="0 0 200 200">
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#EEF1F5" stroke-width="26"/>
+            <!-- Green 60%, Yellow 30%, Red 10% of circumference (2*pi*80=502.65) -->
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#2F9E58" stroke-width="26"
+                    stroke-dasharray="301.6 502.6" stroke-dashoffset="0" transform="rotate(-90 100 100)"/>
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#C98A1F" stroke-width="26"
+                    stroke-dasharray="150.8 502.6" stroke-dashoffset="-301.6" transform="rotate(-90 100 100)"/>
+            <circle cx="100" cy="100" r="80" fill="none" stroke="#C0392B" stroke-width="26"
+                    stroke-dasharray="50.3 502.6" stroke-dashoffset="-452.4" transform="rotate(-90 100 100)"/>
+          </svg>
+          <div class="donut-center">
+            <div class="num">60%</div>
+            <div class="lbl">Healthy</div>
+          </div>
+        </div>
+        <div class="legend">
+          <div class="legend-row">
+            <div class="swatch" style="background:var(--green)"></div>
+            <div class="lbl">Green — Healthy</div>
+            <div class="cnt">6</div>
+            <div class="pct">60%</div>
+          </div>
+          <div class="legend-row">
+            <div class="swatch" style="background:var(--yellow)"></div>
+            <div class="lbl">Yellow — Attention Needed</div>
+            <div class="cnt">3</div>
+            <div class="pct">30%</div>
+          </div>
+          <div class="legend-row">
+            <div class="swatch" style="background:var(--red)"></div>
+            <div class="lbl">Red — At Risk</div>
+            <div class="cnt">1</div>
+            <div class="pct">10%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HEALTH TABLE -->
+  <section>
+    <div class="section-head">
+      <h2>Account Health Detail</h2>
+      <div class="tag">Sorted by risk</div>
+    </div>
+    <div class="section-body" style="padding: 0;">
+      <table>
+        <thead>
+          <tr><th>Customer</th><th>CSM</th><th>Health</th><th>Risk</th><th>Recommended Action</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Meridian Architecture Group</strong></td><td class="muted-cell">J. Patel</td>
+            <td><span class="status-pill status-red"><span class="dot"></span>Red</span></td>
+            <td class="muted-cell">High</td><td>Create recovery plan — At-Risk Playbook active</td>
+          </tr>
+          <tr>
+            <td><strong>Harborline Construction</strong></td><td class="muted-cell">S. Rao</td>
+            <td><span class="status-pill status-yellow"><span class="dot"></span>Yellow</span></td>
+            <td class="muted-cell">Medium</td><td>Schedule check-in this week</td>
+          </tr>
+          <tr>
+            <td><strong>Vantage Engineering Partners</strong></td><td class="muted-cell">J. Patel</td>
+            <td><span class="status-pill status-yellow"><span class="dot"></span>Yellow</span></td>
+            <td class="muted-cell">Medium</td><td>Review payment status, follow up</td>
+          </tr>
+          <tr>
+            <td><strong>Redstone Builders</strong></td><td class="muted-cell">M. Chen</td>
+            <td><span class="status-pill status-yellow"><span class="dot"></span>Yellow</span></td>
+            <td class="muted-cell">Medium</td><td>Confirm renewal confidence at next QBR</td>
+          </tr>
+          <tr>
+            <td><strong>Falcon Structural Design</strong></td><td class="muted-cell">S. Rao</td>
+            <td><span class="status-pill status-green"><span class="dot"></span>Green</span></td>
+            <td class="muted-cell">Low</td><td>Continue standard engagement</td>
+          </tr>
+          <tr>
+            <td><strong>Ironbridge AEC</strong></td><td class="muted-cell">M. Chen</td>
+            <td><span class="status-pill status-green"><span class="dot"></span>Green</span></td>
+            <td class="muted-cell">Low</td><td>Continue standard engagement</td>
+          </tr>
+          <tr>
+            <td><strong>Beacon Hill Design Studio</strong></td><td class="muted-cell">J. Patel</td>
+            <td><span class="status-pill status-green"><span class="dot"></span>Green</span></td>
+            <td class="muted-cell">Low</td><td>Explore upsell opportunity</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- REVENUE + ACTIVITY -->
+  <div class="two-col">
+    <section>
+      <div class="section-head">
+        <h2>Revenue &amp; Renewal Status</h2>
+        <div class="tag">Next 120 days</div>
+      </div>
+      <div class="section-body" style="padding: 0;">
+        <table>
+          <thead>
+            <tr><th>Customer</th><th>ACV</th><th>Renewal</th><th>Opportunity</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Meridian Architecture Group</strong></td><td>$220K</td>
+              <td><span class="status-pill status-red"><span class="dot"></span>At Risk</span></td>
+              <td class="muted-cell">Recovery required</td>
+            </tr>
+            <tr>
+              <td><strong>Harborline Construction</strong></td><td>$95K</td>
+              <td><span class="status-pill status-yellow"><span class="dot"></span>Needs Attention</span></td>
+              <td class="muted-cell">Renewal risk</td>
+            </tr>
+            <tr>
+              <td><strong>Redstone Builders</strong></td><td>$140K</td>
+              <td><span class="status-pill status-yellow"><span class="dot"></span>Needs Attention</span></td>
+              <td class="muted-cell">Renewal risk</td>
+            </tr>
+            <tr>
+              <td><strong>Beacon Hill Design Studio</strong></td><td>$180K</td>
+              <td><span class="status-pill status-green"><span class="dot"></span>Healthy</span></td>
+              <td class="muted-cell">Additional service opportunity</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <h2>Activity Snapshot</h2>
+        <div class="tag">Trailing 30 days</div>
+      </div>
+      <div class="section-body">
+        <div class="activity-list">
+          <div class="activity-item"><span class="name">Customer meetings completed</span><span class="metric">42</span></div>
+          <div class="activity-item"><span class="name">Follow-up emails sent</span><span class="metric">118</span></div>
+          <div class="activity-item"><span class="name">Open action items</span><span class="metric">17</span></div>
+          <div class="activity-item"><span class="name">Escalation reviews held</span><span class="metric">3</span></div>
+          <div class="activity-item"><span class="name">CRM records updated</span><span class="metric">96%</span></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</main>
+
+<footer>
+  <strong>About this artifact:</strong> This is a sample Portfolio Dashboard illustrating the structure described in
+  Module 18 (Reporting &amp; Executive Dashboards) and the Zoho CRM Reports &amp; Dashboards Guide. Customer names and
+  figures are fictional. To build the live version, recreate this structure using Zoho CRM's report and dashboard
+  builder against the fields defined in the Health Score Field Mapping Guide.
+</footer>
+
+</body>
+</html>

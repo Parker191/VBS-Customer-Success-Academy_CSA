@@ -21,8 +21,9 @@
 | **CRM Guides** | ✅ Complete | 5 / 5 Zoho CRM guides written (Field Reference, Pipeline, Health Score Mapping, Reports & Dashboards, Data Hygiene & Permissions) |
 | **Training Videos** | 🔴 Not Started | No production started |
 | **Certification / Assessments** | 🟡 Framework + Quiz Ready | VCCSP structure defined; 12-question knowledge quiz + 2 practical case-study questions built in Moodle GIFT format, ready to import. Not yet imported/tested in Moodle. |
-| **Reporting / Executive Dashboards** | 🟡 Content Only | Module 18 covers the concepts; no dashboard artifact built yet |
-| Assets (Logos, Icons, Certificates, Screenshots) | 🔴 Not Started | Folders exist, empty |
+| **Reporting / Executive Dashboards** | ✅ Sample Artifact Complete | Module 18 content plus a real, polished Portfolio Dashboard mockup in `Reporting/` |
+| Assets (Logos, Icons, Certificates) | ✅ Complete | Repository banner, social preview, logo mark, 27-icon set, VCCSP certificate template. Fixed a structural bug: several Asset subfolders were stray placeholder files, not real folders — corrected. |
+| Assets (Screenshots, Visual Templates) | 🔴 Not Started | Screenshots need live-instance access (Zoho CRM, Moodle, GitHub); Visual Templates need a design-tool source file |
 
 ## Overall Status
 
