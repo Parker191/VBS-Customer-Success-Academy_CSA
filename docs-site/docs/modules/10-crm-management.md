@@ -4,7 +4,7 @@
 
 **Version:** 2.0
 
-**Author:** Sharad Puri
+**Author:** Parker
 
 **Company:** Virtual Building Studio (VBS)
 
